@@ -1,0 +1,35 @@
+name = inova_second
+description = Inova Best Choice
+screenshot = screenshot.jpg
+core = 7.x
+engine = phptemplate
+base theme = html5
+
+
+features[] = name
+features[] = favicon
+
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+
+
+stylesheets[all][] = css/base.css
+scripts[] = js/main.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
