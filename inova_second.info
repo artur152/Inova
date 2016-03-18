@@ -8,6 +8,7 @@ base theme = html5
 
 features[] = name
 features[] = favicon
+features[] = logo
 
 regions[header] = Header
 regions[content] = Content
