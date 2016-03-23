@@ -290,7 +290,7 @@ form.email input[type='submit'] {
   .events-calendar-form .date-submit input:first-child {
     margin-left: 0; }
 
-.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .social-share ul:after, .weather:after, .inside .panel-pane .pane-content:after, .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .views-widget:after, .inside .panel-pane .view-content:after, header:after, header .block-lang-switcher ul.language-switcher-locale-url:after, header .region-header .content > ul.menu > li > ul.menu:after, footer .region-footer:after, main .panel-2col-stacked .panel-col-bottom:after, main .panel-2col-stacked .panel-col-bottom .inside:after, main .center-wrapper:after, main .center-wrapper .panel-col-bottom .inside:after, body:not(.page-home) .panel-col-bottom .panel-panel:after, body.page-referenzen .panel-col-bottom:after, body.page-referenzen .pane-clients-referenzen:after, body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content:after {
+.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .inside .pane-content:after, .inside .view-filters .views-exposed-widgets .views-exposed-widget .views-widget:after, .inside .view-content:after, body.page-netzwerk .inside .view-content:after, body.page-unternehmen .inside .view-content:after, main .center-wrapper form:after, header:after, header .block-lang-switcher ul.language-switcher-locale-url:after, header .region-header .content > ul.menu > li > ul.menu:after, footer .region-footer:after, main .panel-2col-stacked .panel-col-bottom:after, main .panel-2col-stacked .panel-col-bottom .inside:after, main .center-wrapper:after, main .center-wrapper .panel-col-bottom .inside:after, body:not(.page-home) .panel-col-bottom .panel-panel:after, body.page-referenzen .panel-col-bottom:after, body.page-referenzen .pane-clients-referenzen:after, body.page-contact .panel-col-first .pane-address-description:after {
   content: "";
   clear: both;
   display: table; }
@@ -299,22 +299,12 @@ form.email input[type='submit'] {
   max-width: 960px;
   margin: 0 auto; }
 
-.transition, .primary-input, .search-block-form .form-search, form.email input[type='text'], .secondary-button:hover, form.email input[type='submit']:hover, .more-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a,
-.panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a,
-.panel-col-bottom .views-row .field-name-node-link a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions a, .more-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input,
-.panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input,
-.panel-col-bottom .views-row .field-name-node-link input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions input, .social-share ul li a:hover, .ui-datepicker .ui-datepicker-header a.ui-corner-all:hover, .ui-datepicker .ui-datepicker-header a.ui-corner-all:hover:after, .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label, header .region-header .content ul, header .region-header .content li, header .region-header .content a, main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button, body:not(.page-home) .pane-menu-block ul.menu li:not(.supply-chain-management) a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:before, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:before, body:not(.page-home) .pane-menu-block ul.menu li a {
+.transition, .primary-input, .search-block-form .form-search, form.email input[type='text'], .secondary-button:hover, form.email input[type='submit']:hover, .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input, .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label, header .region-header .content ul, header .region-header .content li, header .region-header .content a, main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button, body:not(.page-home) .pane-menu-block ul.menu li:not(.supply-chain-management) a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:before, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:before, body:not(.page-home) .pane-menu-block ul.menu li a {
   transition: all .2s ease 0s; }
 
-.more-link, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item,
-.panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link,
-.panel-col-bottom .views-row .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions {
+.more-link, .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, main .center-wrapper form .form-actions, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item {
   position: absolute; }
-  .more-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a,
-  .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a,
-  .panel-col-bottom .views-row .field-name-node-link a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions a, .more-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input,
-  .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input,
-  .panel-col-bottom .views-row .field-name-node-link input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions input {
+  .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input {
     position: relative;
     display: block;
     width: 100%;
@@ -334,371 +324,19 @@ form.email input[type='submit'] {
     -moz-border-radius: 3px;
     border-radius: 3px;
     outline: none; }
-    .more-link a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:hover,
-    .panel-col-bottom .views-row .field-type-link-field .field-item a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:hover,
-    .panel-col-bottom .views-row .field-name-node-link a:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:hover, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions a:hover, .more-link input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:hover,
-    .panel-col-bottom .views-row .field-type-link-field .field-item input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:hover,
-    .panel-col-bottom .views-row .field-name-node-link input:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:hover, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions input:hover {
+    .more-link a:hover, .panel-col-bottom .views-row .field-type-link-field .field-item a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:hover, .panel-col-bottom .views-row .field-name-node-link a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:hover, main .center-wrapper form .form-actions a:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:hover, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a:hover, .more-link input:hover, .panel-col-bottom .views-row .field-type-link-field .field-item input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:hover, .panel-col-bottom .views-row .field-name-node-link input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:hover, main .center-wrapper form .form-actions input:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:hover, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input:hover {
       background-color: rgba(0, 102, 153, 0.3); }
-    .more-link a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:after,
-    .panel-col-bottom .views-row .field-type-link-field .field-item a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:after,
-    .panel-col-bottom .views-row .field-name-node-link a:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:after, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions a:after, .more-link input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:after,
-    .panel-col-bottom .views-row .field-type-link-field .field-item input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:after,
-    .panel-col-bottom .views-row .field-name-node-link input:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:after, body.page-aktuelles .panel-col-last .pane-newsletter .form-actions input:after {
+    .more-link a:after, .panel-col-bottom .views-row .field-type-link-field .field-item a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:after, .panel-col-bottom .views-row .field-name-node-link a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:after, main .center-wrapper form .form-actions a:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:after, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a:after, .more-link input:after, .panel-col-bottom .views-row .field-type-link-field .field-item input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:after, .panel-col-bottom .views-row .field-name-node-link input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:after, main .center-wrapper form .form-actions input:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:after, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input:after {
       content: '\2008\2008\2008';
       display: inline;
       background: url("../images/link-arrow.png") no-repeat 100% 3px; }
 
-.play-button:before, .weather .views .cams .item .camera a:before {
-  content: '';
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  border-right: 0 solid transparent;
-  border-left: 15px solid #fff;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent; }
-.play-button:after, .weather .views .cams .item .camera a:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  border: 2px solid #fff;
-  border-radius: 50%; }
-
-.slider-arrow {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  margin-top: -25px;
-  background: none;
-  border: none;
-  text-indent: -9999px;
-  outline: none;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  padding: 0; }
-  .slider-arrow:after {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    width: 10px;
-    height: 10px;
-    border-left: 2px solid #1f1f1f;
-    border-bottom: 2px solid #1f1f1f;
-    transform: rotate(45deg); }
-
-.social-share ul {
-  float: left;
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .social-share ul li {
-    float: left;
-    margin-right: 20px; }
-    .social-share ul li:last-child {
-      margin-right: 0; }
-    .social-share ul li a {
-      float: left;
-      text-indent: -9999px;
-      background-color: rgba(0, 0, 0, 0.5);
-      background-image: url(../img/sc-social.png);
-      background-position: 0 0;
-      background-repeat: no-repeat;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px; }
-      .social-share ul li a:hover {
-        background-color: rgba(128, 128, 128, 0.5); }
-    .social-share ul li .facebook {
-      background-position: 20px 50%; }
-    .social-share ul li .twitter {
-      background-position: -50px 50%; }
-    .social-share ul li .pinterest {
-      background-position: -130px 50%; }
-    .social-share ul li .instagram {
-      background-position: -207px 50%; }
-    .social-share ul li .vimeo {
-      background-position: -285px 50%; }
-
-.weather {
-  display: table;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 50%;
-  margin-right: -665px;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-align: center; }
-  .weather a, .weather span {
-    color: #fff; }
-  .weather a {
-    font-size: 12px; }
-  .weather .title {
-    font-family: "helvetica-bold", sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 15px;
-    margin-bottom: 10px;
-    width: 170px;
-    overflow: hidden;
-    white-space: nowrap;
-    -ms-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
-  .weather .more {
-    line-height: 13px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: inline-block;
-    padding: 8px 0; }
-  .weather .meteo, .weather .views {
-    min-width: 150px;
-    height: 430px;
-    position: relative;
-    min-height: inherit;
-    float: left; }
-  .weather .meteo {
-    background: rgba(38, 44, 51, 0.7); }
-    .weather .meteo .more {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      text-indent: -9999px;
-      background: rgba(0, 0, 0, 0.7); }
-      .weather .meteo .more.spin:after {
-        transform: rotate(180deg); }
-      .weather .meteo .more:after {
-        content: '';
-        position: absolute;
-        bottom: 6px;
-        left: 50%;
-        width: 20px;
-        height: 17px;
-        background: url("../img/arrow-white.png") no-repeat center center;
-        background-size: 17px auto;
-        transition: all .5s ease 0s; }
-      .weather .meteo .more:hover {
-        opacity: 0.5; }
-    .weather .meteo .item {
-      border-bottom: 1px solid #9C9C9C;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 20px;
-      padding-bottom: 20px; }
-      .weather .meteo .item:last-of-type {
-        border: none; }
-      .weather .meteo .item .info {
-        display: block; }
-        .weather .meteo .item .info .icon {
-          display: inline-block; }
-          .weather .meteo .item .info .icon img {
-            max-width: 100%; }
-        .weather .meteo .item .info .temperature {
-          display: inline-block;
-          margin-left: 10px;
-          font-family: "helvetica-light", sans-serif;
-          font-size: 40px;
-          line-height: 44px; }
-          .weather .meteo .item .info .temperature:first-child {
-            margin-left: 0; }
-          .weather .meteo .item .info .temperature sup {
-            font-size: 20px; }
-          .weather .meteo .item .info .temperature sub {
-            font-size: 20px;
-            vertical-align: baseline; }
-          .weather .meteo .item .info .temperature .description {
-            font-family: "helvetica-bold", sans-serif;
-            font-size: 12px;
-            line-height: 16px; }
-            .weather .meteo .item .info .temperature .description:last-child.item {
-              margin-right: 0; }
-  .weather .views {
-    padding-top: 20px;
-    background: rgba(38, 44, 51, 0.9);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    .weather .views.show {
-      color: red; }
-    .weather .views .more {
-      width: 100%;
-      display: inline-block;
-      line-height: 13px;
-      padding: 8px 0; }
-    .weather .views .cams .item {
-      padding: 0 15px 10px; }
-      .weather .views .cams .item:last-child {
-        margin-bottom: 30px; }
-      .weather .views .cams .item .camera {
-        position: relative; }
-        .weather .views .cams .item .camera a {
-          position: relative;
-          display: block;
-          margin: 0 auto;
-          width: 120px;
-          height: 80px;
-          overflow: hidden;
-          border: 1px solid #D3D4D5;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box; }
-          .weather .views .cams .item .camera a:hover {
-            opacity: 0.5; }
-        .weather .views .cams .item .camera img {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          min-width: 100%;
-          height: auto;
-          display: block;
-          margin: 0 auto; }
-      .weather .views .cams .item .title {
-        font-family: "helvetica-medium", sans-serif;
-        margin-top: 5px;
-        margin-bottom: 0;
-        text-transform: none;
-        width: 140px;
-        overflow: hidden;
-        white-space: nowrap;
-        -ms-text-overflow: ellipsis;
-        text-overflow: ellipsis; }
-    .weather .views a:hover {
-      color: #9C9C9C; }
-
-/* Date Picker Diden*/
-.ui-datepicker {
-  display: none;
-  color: #393A3F;
-  background: #fff;
-  padding: 15px;
-  width: 253px;
-  text-align: center;
-  border: 1px solid #E8E8E8;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  .ui-datepicker thead {
-    display: table-header-group; }
-  .ui-datepicker select {
-    text-transform: uppercase;
-    line-height: 20px;
-    font-family: "helvetica-bold", sans-serif;
-    width: 22%;
-    font-size: 16px;
-    color: #ab181d;
-    background: none;
-    border: none;
-    outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none; }
-  .ui-datepicker a {
-    color: #393A3F; }
-  .ui-datepicker .ui-datepicker-header a.ui-corner-all {
-    position: relative;
-    background: #E8E8E8;
-    text-indent: -9998px;
-    display: block;
-    float: left;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer; }
-    .ui-datepicker .ui-datepicker-header a.ui-corner-all:after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 55%;
-      transform: translate(-50%, -50%) rotate(45deg);
-      width: 6px;
-      height: 6px;
-      border-left: 2px solid #962427;
-      border-bottom: 2px solid #962427;
-      border-right: 0 solid transparent;
-      border-top: 0 solid transparent; }
-    .ui-datepicker .ui-datepicker-header a.ui-corner-all:hover {
-      background: #9c9c9c; }
-      .ui-datepicker .ui-datepicker-header a.ui-corner-all:hover:after {
-        border-left-color: #fff;
-        border-bottom-color: #fff; }
-  .ui-datepicker .ui-datepicker-header a.ui-datepicker-next {
-    float: right; }
-    .ui-datepicker .ui-datepicker-header a.ui-datepicker-next:after {
-      left: 45%;
-      transform: translate(-50%, -50%) rotate(-135deg); }
-  .ui-datepicker .ui-datepicker-calendar {
-    width: 100%; }
-    .ui-datepicker .ui-datepicker-calendar td {
-      line-height: 36px; }
-      .ui-datepicker .ui-datepicker-calendar td:hover, .ui-datepicker .ui-datepicker-calendar td:focus {
-        background: #393A3F; }
-        .ui-datepicker .ui-datepicker-calendar td:hover a, .ui-datepicker .ui-datepicker-calendar td:focus a {
-          color: #fff; }
-    .ui-datepicker .ui-datepicker-calendar .ui-datepicker-today {
-      background: #006699; }
-      .ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a {
-        color: #fff; }
-  .ui-datepicker .ui-datepicker-today {
-    background: #006699; }
-    .ui-datepicker .ui-datepicker-today a {
-      color: #fff; }
-  .ui-datepicker .ui-datepicker-current-day {
-    background: #ab181d; }
-    .ui-datepicker .ui-datepicker-current-day a {
-      color: #fff; }
-  .ui-datepicker .ui-datepicker-unselectable span {
-    color: #9C9C9C; }
-  .ui-datepicker td.ui-datepicker-other-month:hover {
-    background: none;
-    cursor: default; }
-
-.calendar {
-  float: right; }
-  .calendar .ui-datepicker {
-    border: none;
-    width: 340px;
-    height: 320px; }
-    .calendar .ui-datepicker td {
-      border: 3px solid #fff; }
-    .calendar .ui-datepicker thead {
-      display: none; }
-    .calendar .ui-datepicker select {
-      width: 21%;
-      font-size: 24px;
-      line-height: 38px; }
-    .calendar .ui-datepicker a, .calendar .ui-datepicker span {
-      font-size: 21px;
-      line-height: 24px; }
-    .calendar .ui-datepicker .ui-datepicker-header {
-      padding-bottom: 15px;
-      border-bottom: 1px solid #9C9C9C; }
-      .calendar .ui-datepicker .ui-datepicker-header a.ui-corner-all {
-        width: 32px;
-        height: 32px; }
-    .calendar .ui-datepicker .ui-datepicker-month {
-      font-family: "helvetica-light", sans-serif; }
-    .calendar .ui-datepicker .ui-datepicker-year {
-      font-family: "helvetica-bold", sans-serif; }
-
 .panel-2col-stacked .panel-separator {
   display: none; }
 
-.inside .panel-pane .pane-title,
-.inside .panel-pane .view-header,
-.inside .panel-pane .view-filters {
+.inside .pane-title,
+.inside .view-header,
+.inside .view-filters {
   position: relative;
   width: 100%;
   background-color: #fff;
@@ -706,18 +344,18 @@ form.email input[type='submit'] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-.inside .panel-pane .pane-title {
+.inside .pane-title {
   padding: 30px 15px 15px;
   margin: 0; }
-.inside .panel-pane .view-header {
+.inside .view-header {
   float: left; }
-  .inside .panel-pane .view-header p {
+  .inside .view-header p {
     margin: 0;
     line-height: 23px; }
-.inside .panel-pane .view-filters {
+.inside .view-filters {
   clear: left;
   margin-bottom: 35px; }
-  .inside .panel-pane .view-filters:after {
+  .inside .view-filters:after {
     content: ' ';
     display: block;
     position: absolute;
@@ -727,31 +365,31 @@ form.email input[type='submit'] {
     padding-bottom: 21px;
     background: url(../images/triangle.png) no-repeat 0 0;
     background-size: 100% auto; }
-  .inside .panel-pane .view-filters .views-exposed-widgets {
+  .inside .view-filters .views-exposed-widgets {
     margin: 0; }
-    .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget {
+    .inside .view-filters .views-exposed-widgets .views-exposed-widget {
       float: none;
       padding: 0; }
-      .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget label {
+      .inside .view-filters .views-exposed-widgets .views-exposed-widget label {
         font-family: "helvetica-light", sans-serif;
         font-size: 24px;
         line-height: 30px;
         font-weight: normal; }
-      .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .views-widget {
+      .inside .view-filters .views-exposed-widgets .views-exposed-widget .views-widget {
         text-align: right;
         padding-top: 10px;
         margin-bottom: 8px; }
-      .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes {
+      .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes {
         width: 100%;
         display: inline-block; }
-        .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item {
+        .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item {
           width: 33%;
           float: left;
           margin-bottom: 5px;
           color: #fff; }
-          .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item input {
+          .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item input {
             display: none; }
-          .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label {
+          .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label {
             display: block;
             width: 100%;
             font-family: "helvetica-bold", sans-serif;
@@ -765,17 +403,17 @@ form.email input[type='submit'] {
             -webkit-border-radius: 2px;
             -moz-border-radius: 2px;
             border-radius: 2px; }
-            .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label:hover {
+            .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label:hover {
               color: #E59900; }
-        .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item:not(:nth-child(3n)) {
+        .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item:not(:nth-child(3n)) {
           margin-right: 0.5%; }
-      .inside .panel-pane .view-filters .views-exposed-widgets .views-exposed-widget a.form-reset {
+      .inside .view-filters .views-exposed-widgets .views-exposed-widget a.form-reset {
         font-family: "helvetica-light", sans-serif;
         font-size: 14px;
         color: #006699;
         display: inline-block;
         margin-top: 10px; }
-.inside .panel-pane .view-content {
+.inside .view-content {
   clear: both; }
 
 .pane-clients-highlight, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight {
@@ -816,8 +454,9 @@ form.email input[type='submit'] {
       display: inline;
       background: url("../images/link-arrow.png") no-repeat 100% 3px; }
 
-.panel-col-bottom .pane-fieldable-panels-pane,
-.panel-col-bottom .views-row {
+.panel-col-bottom .view-content {
+  margin: 0 -0.5% 0; }
+.panel-col-bottom .views-row, .panel-col-bottom .pane-fieldable-panels-pane {
   position: relative;
   float: left;
   width: 32.33%;
@@ -827,46 +466,172 @@ form.email input[type='submit'] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .panel-col-bottom .pane-fieldable-panels-pane h2,
-  .panel-col-bottom .views-row h2 {
+  .panel-col-bottom .views-row h2, .panel-col-bottom .pane-fieldable-panels-pane h2 {
     color: #006699;
     font-size: 24px;
     line-height: 28px;
     margin: 0; }
-  .panel-col-bottom .pane-fieldable-panels-pane h3,
-  .panel-col-bottom .views-row h3 {
+  .panel-col-bottom .views-row h3, .panel-col-bottom .pane-fieldable-panels-pane h3 {
     color: #006699;
     margin: 0;
     padding: 0;
     overflow: hidden; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long,
-  .panel-col-bottom .views-row .field-type-text-long {
+  .panel-col-bottom .views-row .field-type-text-long, .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long {
     min-height: 72px;
     overflow: hidden;
     padding: 20px 0; }
-    .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long .field-item,
-    .panel-col-bottom .views-row .field-type-text-long .field-item {
+    .panel-col-bottom .views-row .field-type-text-long .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long .field-item {
       font-family: "helvetica-light", sans-serif;
       font-size: 16px;
       line-height: 20px; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item,
-  .panel-col-bottom .views-row .field-type-link-field .field-item {
+  .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item {
     position: inherit; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link,
-  .panel-col-bottom .views-row .field-name-node-link {
+  .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link {
     position: inherit; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-name-title-ds,
-  .panel-col-bottom .views-row .field-name-title-ds {
+  .panel-col-bottom .views-row .field-name-title-ds, .panel-col-bottom .pane-fieldable-panels-pane .field-name-title-ds {
     height: 100px; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-name-title,
-  .panel-col-bottom .views-row .field-name-title {
+  .panel-col-bottom .views-row .field-name-title, .panel-col-bottom .pane-fieldable-panels-pane .field-name-title {
     height: 60px; }
-  .panel-col-bottom .pane-fieldable-panels-pane .field-type-image,
-  .panel-col-bottom .views-row .field-type-image {
+  .panel-col-bottom .views-row .field-type-image, .panel-col-bottom .pane-fieldable-panels-pane .field-type-image {
     display: table;
     width: 100%;
     height: 70px;
     padding: 15px 0 5px; }
+
+body.page-netzwerk .inside .view-content {
+  margin: 0; }
+  body.page-netzwerk .inside .view-content .views-row:not(:nth-child(3n)) {
+    margin-right: 2%; }
+  body.page-netzwerk .inside .view-content .views-row {
+    position: relative;
+    width: 32%;
+    background-color: rgba(0, 102, 153, 0.1);
+    padding: 0;
+    margin: 0 0 15px 0;
+    min-height: 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    body.page-netzwerk .inside .view-content .views-row .group-advisor-short {
+      float: left;
+      width: 65%;
+      padding: 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link {
+        position: absolute;
+        bottom: 10px;
+        max-width: 70%; }
+        body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link a {
+          font-family: "helvetica-medium", sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000;
+          width: auto;
+          text-align: left;
+          padding: 0;
+          border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+          background: none;
+          text-transform: none;
+          text-decoration: none; }
+          body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link a:after {
+            display: none; }
+    body.page-netzwerk .inside .view-content .views-row .field-name-field-advisor-photo {
+      float: right;
+      width: 35%;
+      padding: 0; }
+      body.page-netzwerk .inside .view-content .views-row .field-name-field-advisor-photo img {
+        float: right;
+        display: block; }
+
+body.page-unternehmen .inside .view-content .views-row:not(:nth-child(3n)) {
+  margin-right: 15px; }
+body.page-unternehmen .inside .view-content .views-row {
+  width: 32%;
+  background-color: rgba(0, 102, 153, 0.1);
+  padding: 0;
+  margin: 0 0 15px 0;
+  min-height: 130px; }
+  body.page-unternehmen .inside .view-content .views-row .group-team-member-short {
+    float: left;
+    width: 65%;
+    padding: 15px 15px 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link {
+      position: absolute;
+      bottom: 10px;
+      max-width: 70%; }
+      body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link a {
+        font-family: "helvetica-medium", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000;
+        width: auto;
+        text-align: left;
+        padding: 0;
+        border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+        background: none;
+        text-transform: none;
+        text-decoration: none; }
+  body.page-unternehmen .inside .view-content .views-row .field-type-image {
+    float: right;
+    width: 35%;
+    padding: 0; }
+    body.page-unternehmen .inside .view-content .views-row .field-type-image img {
+      float: right;
+      display: block; }
+
+main .center-wrapper .pane-newsletter {
+  margin-top: 15px;
+  padding: 15px;
+  background: #fff; }
+  main .center-wrapper .pane-newsletter .pane-title {
+    color: #000;
+    padding: 0;
+    margin-bottom: 0; }
+main .center-wrapper form p {
+  line-height: 23px; }
+main .center-wrapper form fieldset {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none; }
+  main .center-wrapper form fieldset .fieldset-wrapper .form-item, main .center-wrapper form fieldset .fieldset-wrapper .form-actions {
+    margin: 5px 0; }
+  main .center-wrapper form fieldset .fieldset-wrapper .webform-component select, main .center-wrapper form fieldset .fieldset-wrapper .webform-component input {
+    font-family: "helvetica-light", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #a7a7a7;
+    height: 42px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 15px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  main .center-wrapper form fieldset .fieldset-wrapper .webform-component select {
+    background: #f2f2f2 url(../images/icon_select.jpg) 100% 0 no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  main .center-wrapper form fieldset .fieldset-wrapper .webform-component input {
+    background: #f2f2f2; }
+main .center-wrapper form .form-actions {
+  position: relative;
+  margin: 0;
+  bottom: 0; }
+  main .center-wrapper form .form-actions input.webform-submit {
+    border: none;
+    background-image: url("../images/link-arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 30px top 50%; }
 
 /*.tabs{
   position: relative;
@@ -1068,7 +833,7 @@ header {
       display: block; }
     header .region-header .content > ul.menu {
       position: absolute;
-      top: 70px;
+      top: 72px;
       left: 0;
       background: #006699;
       width: 100%; }
@@ -1193,11 +958,7 @@ header {
       header .region-header .content > ul.menu li:hover > ul.menu > li > ul.menu li div.view-content .field-items span {
         font-family: "helvetica-bold", sans-serif;
         font-size: 13px; }
-    header .region-header .content .more-link, header .region-header .content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header .content .field-item,
-    header .region-header .content .panel-col-bottom .views-row .field-type-link-field .field-item,
-    .panel-col-bottom .views-row .field-type-link-field header .region-header .content .field-item, header .region-header .content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header .content .field-name-node-link,
-    header .region-header .content .panel-col-bottom .views-row .field-name-node-link,
-    .panel-col-bottom .views-row header .region-header .content .field-name-node-link, header .region-header .content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header .content .field-name-node-link, header .region-header .content body.page-aktuelles .panel-col-last .pane-newsletter .form-actions, body.page-aktuelles .panel-col-last .pane-newsletter header .region-header .content .form-actions,
+    header .region-header .content .more-link, header .region-header .content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header .content .field-item, header .region-header .content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header .content .field-item, header .region-header .content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header .content .field-name-node-link, header .region-header .content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header .content .field-name-node-link, header .region-header .content main .center-wrapper form .form-actions, main .center-wrapper form header .region-header .content .form-actions, header .region-header .content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header .content .field-name-node-link, header .region-header .content body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field header .region-header .content .field-item,
     header .region-header .content .first.last.leaf.newsletter-link {
       bottom: 30px; }
   header .region-header #block-menu-menu-main-menu-mobile {
@@ -1435,11 +1196,7 @@ main .center-wrapper {
     padding-top: 0; }
     main .center-wrapper .panel-panel .field-name-field-event-date .date-display-single {
       color: #E59900; }
-  main .center-wrapper .panel-panel .more-link, main .center-wrapper .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .field-item,
-  main .center-wrapper .panel-panel .panel-col-bottom .views-row .field-type-link-field .field-item,
-  .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-panel .field-item, main .center-wrapper .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-panel .field-name-node-link,
-  main .center-wrapper .panel-panel .panel-col-bottom .views-row .field-name-node-link,
-  .panel-col-bottom .views-row main .center-wrapper .panel-panel .field-name-node-link, main .center-wrapper .panel-panel body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-panel .field-name-node-link, main .center-wrapper .panel-panel body.page-aktuelles .panel-col-last .pane-newsletter .form-actions, body.page-aktuelles .panel-col-last .pane-newsletter main .center-wrapper .panel-panel .form-actions {
+  main .center-wrapper .panel-panel .view-content .more-link, main .center-wrapper .panel-panel .view-content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item, main .center-wrapper .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item, main .center-wrapper .panel-panel .view-content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content form .form-actions, main .center-wrapper form .panel-panel .view-content .form-actions, main .center-wrapper .panel-panel .view-content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item {
     bottom: 15px; }
   main .center-wrapper .panel-col-first {
     float: left;
@@ -1451,11 +1208,7 @@ main .center-wrapper {
     width: 32%; }
     main .center-wrapper .panel-col-last .inside {
       margin: 0; }
-    main .center-wrapper .panel-col-last .more-link.pane-events, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-events.field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item,
-    main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .pane-events.field-item,
-    .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .pane-events.field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link,
-    main .center-wrapper .panel-col-last .panel-col-bottom .views-row .pane-events.field-name-node-link,
-    .panel-col-bottom .views-row main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last body.page-aktuelles .panel-col-first .panel-pane .pane-events.field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper body.page-aktuelles .panel-col-last .pane-newsletter .pane-events.form-actions, body.page-aktuelles main .center-wrapper .panel-col-last .pane-newsletter .pane-events.form-actions {
+    main .center-wrapper .panel-col-last .more-link.pane-events, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .pane-events.field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-events.field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .pane-events.field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .pane-events.field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last form .pane-events.form-actions, main .center-wrapper form .panel-col-last .pane-events.form-actions, main .center-wrapper .panel-col-last body.page-aktuelles .panel-col-first .panel-pane .pane-events.field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .pane-events.field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item {
       width: calc(32.33% - 15px); }
   main .center-wrapper .panel-col-bottom .inside {
     margin: 0 -0.5%; }
@@ -1659,11 +1412,7 @@ body.page-referenzen .pane-clients-referenzen {
   body.page-referenzen .pane-clients-referenzen .view-header,
   body.page-referenzen .pane-clients-referenzen .view-filters {
     width: 65%; }
-  body.page-referenzen .pane-clients-referenzen .view-content {
-    margin: 0 -0.5% 0; }
 
-body.page-netzwerk .panel-col-first .field-item h1 {
-  padding: 0; }
 body.page-netzwerk .panel-col-first .field-item h3 {
   color: #006699;
   margin: 0;
@@ -1681,48 +1430,13 @@ body.page-netzwerk .panel-col-bottom .inside {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
     body.page-netzwerk .panel-col-bottom .inside .pane-teams h1 {
-      margin: 0; }
-    body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row:not(:nth-child(3n)) {
-      margin-right: 15px; }
-    body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row {
-      position: relative;
-      background: #9C9C9C;
-      width: 32%;
-      background-color: rgba(0, 102, 153, 0.1);
-      padding: 0;
-      margin: 0 0 15px 0;
-      min-height: 130px; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row .group-advisor-short {
-        float: left;
-        width: 65%;
-        padding: 15px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box; }
-        body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row .group-advisor-short .field-name-node-link {
-          position: absolute;
-          bottom: 10px;
-          max-width: 70%; }
-          body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row .group-advisor-short .field-name-node-link a {
-            font-family: "helvetica-medium", sans-serif;
-            font-size: 16px;
-            line-height: 20px;
-            color: #000;
-            width: auto;
-            text-align: left;
-            padding: 0;
-            border-bottom: 1px solid rgba(0, 102, 153, 0.3);
-            background: none;
-            text-transform: none;
-            text-decoration: none; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row .field-name-field-advisor-photo {
-        float: right;
-        width: 35%;
-        height: auto;
-        padding: 0; }
-        body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content .views-row .field-name-field-advisor-photo img {
-          float: right;
-          display: block; }
+      margin: 0;
+      padding: 0; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-header {
+      float: none;
+      padding: 0; }
+      body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-header p {
+        margin: 15px 0; }
   body.page-netzwerk .panel-col-bottom .inside .pane-sponsors {
     margin: 15px 0 0; }
     body.page-netzwerk .panel-col-bottom .inside .pane-sponsors h1 {
@@ -1735,11 +1449,14 @@ body.page-netzwerk .panel-col-bottom .inside {
       float: none;
       padding-bottom: 0; }
     body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content {
-      margin: 15px -0.5% 0; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .field-name-title {
-        padding: 10px 0; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .field-type-text-long {
-        padding: 0; }
+      margin: 15px 0; }
+      body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .views-row {
+        background-color: #fff;
+        padding: 15px; }
+        body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .views-row .field-name-title {
+          padding: 10px 0; }
+        body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .views-row .field-type-text-long {
+          padding: 0; }
 
 body.page-aktuelles .panel-col-first {
   padding: 0;
@@ -1758,53 +1475,163 @@ body.page-aktuelles .panel-col-first {
       position: relative; }
     body.page-aktuelles .panel-col-first .panel-pane:not(:last-child) {
       margin-bottom: 15px; }
-body.page-aktuelles .panel-col-last .pane-newsletter {
-  margin-top: 15px;
-  padding: 15px;
-  background: #fff; }
-  body.page-aktuelles .panel-col-last .pane-newsletter .pane-title {
-    color: #000;
-    padding: 0;
-    margin-bottom: 0; }
-  body.page-aktuelles .panel-col-last .pane-newsletter p {
+
+body.page-contact .panel-col-first h1.pane-title {
+  padding: 0; }
+body.page-contact .panel-col-first .webform-component--contact-us-description {
+  margin: 5px 0; }
+  body.page-contact .panel-col-first .webform-component--contact-us-description p {
     line-height: 23px; }
-  body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper {
+    body.page-contact .panel-col-first .webform-component--contact-us-description p a {
+      color: #006699; }
+  body.page-contact .panel-col-first .webform-component--contact-us-description h3 {
     margin: 0;
-    padding: 0;
-    background: none;
-    border: none; }
-    body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .form-item, body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .form-actions {
-      margin: 5px 0; }
-    body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .webform-component select, body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .webform-component input {
-      font-family: "helvetica-light", sans-serif;
-      font-size: 16px;
-      line-height: 20px;
-      color: #a7a7a7;
-      height: 42px;
-      width: 100%;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 0 15px;
-      border-radius: 2px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-    body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .webform-component select {
-      background: #f2f2f2 url(../images/icon_select.jpg) 100% 0 no-repeat;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none; }
-    body.page-aktuelles .panel-col-last .pane-newsletter fieldset.webform-component--newsletter-columns-wrapper .fieldset-wrapper .webform-component input {
-      background: #f2f2f2; }
-  body.page-aktuelles .panel-col-last .pane-newsletter .form-actions {
-    position: relative;
-    width: 100%;
+    color: #006699; }
+body.page-contact .panel-col-first form fieldset {
+  width: 49%;
+  float: left;
+  margin-right: 2%; }
+body.page-contact .panel-col-first form .webform-component-textarea {
+  width: 49%;
+  float: right;
+  margin: 5px 0; }
+  body.page-contact .panel-col-first form .webform-component-textarea textarea {
+    min-height: 180px;
+    resize: none;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  body.page-contact .panel-col-first form .webform-component-textarea .grippie {
+    display: none; }
+body.page-contact .panel-col-first form .form-actions {
+  width: 49%;
+  float: left; }
+body.page-contact .panel-col-first .pane-address-description {
+  margin-top: 15px; }
+body.page-contact .panel-col-first .panel-col-first, body.page-contact .panel-col-first .panel-col-last {
+  margin-top: 0;
+  padding: 0;
+  width: 49%; }
+  body.page-contact .panel-col-first .panel-col-first h3, body.page-contact .panel-col-first .panel-col-last h3 {
+    margin: 20px 0;
+    color: #006699; }
+  body.page-contact .panel-col-first .panel-col-first .field-type-text-long, body.page-contact .panel-col-first .panel-col-last .field-type-text-long {
+    font-family: "helvetica-light", sans-serif;
+    line-height: 23px; }
+body.page-contact .panel-col-first .panel-col-first {
+  float: left;
+  margin-right: 2%; }
+body.page-contact .panel-col-first .panel-col-last {
+  float: right; }
+body.page-contact .panel-col-bottom .inside {
+  margin: 0; }
+body.page-contact .panel-col-bottom .pane-colorized-gmap {
+  padding-bottom: 60px;
+  background: #fff; }
+body.page-contact .panel-col-bottom h3.pane-title {
+  padding: 30px 15px; }
+body.page-contact .panel-col-bottom .colorized-gmap-common {
+  width: 100%;
+  height: 640px; }
+
+body.page-unternehmen .panel-col-first {
+  background-color: transparent;
+  padding: 0; }
+  body.page-unternehmen .panel-col-first .pane-bundle-large-text-block {
+    background: #fff;
+    padding: 30px 15px;
+    margin-bottom: 15px; }
+body.page-unternehmen .pane-content .fieldable-panels-pane h3 {
+  margin: 0;
+  color: #006699; }
+body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-text-long p {
+  line-height: 23px; }
+body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item {
+  position: relative;
+  padding-top: 10px;
+  width: 50%; }
+body.page-unternehmen .panel-col-bottom .inside {
+  margin: 0; }
+body.page-unternehmen .panel-col-bottom .pane-teams {
+  background: #fff;
+  padding: 30px 15px 15px; }
+  body.page-unternehmen .panel-col-bottom .pane-teams h1 {
+    padding: 0; }
+  body.page-unternehmen .panel-col-bottom .pane-teams h5 {
+    font-family: "helvetica-bold", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 20px 0;
     margin: 0; }
-    body.page-aktuelles .panel-col-last .pane-newsletter .form-actions input.webform-submit {
-      border: none;
-      background-image: url("../images/link-arrow.png");
-      background-repeat: no-repeat;
-      background-position: right 30px top 50%; }
+  body.page-unternehmen .panel-col-bottom .pane-teams .view-header {
+    float: left;
+    padding: 0; }
+    body.page-unternehmen .panel-col-bottom .pane-teams .view-header p {
+      margin: 15px 0; }
+body.page-unternehmen .panel-col-bottom .pane-publications {
+  padding-bottom: 100px;
+  margin-top: 50px; }
+  body.page-unternehmen .panel-col-bottom .pane-publications h1 {
+    background-color: transparent;
+    padding-bottom: 5px; }
+  body.page-unternehmen .panel-col-bottom .pane-publications .view-header {
+    background-color: transparent; }
+    body.page-unternehmen .panel-col-bottom .pane-publications .view-header p {
+      font-family: "helvetica-bold", sans-serif; }
+  body.page-unternehmen .panel-col-bottom .pane-publications .view-content {
+    margin: 0; }
+    body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row:not(:nth-child(3n)) {
+      margin-right: 2%; }
+    body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row {
+      background: #fff;
+      padding: 15px; }
+      body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row .field-name-title {
+        height: 85px;
+        padding: 10px 0;
+        overflow: hidden; }
+        body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row .field-name-title h2 {
+          font-size: 19px;
+          line-height: 21px; }
+      body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row .field-type-text-long {
+        padding: 0; }
+      body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row .field-name-node-link {
+        margin-top: 30px;
+        padding: 0;
+        width: 100%; }
+  body.page-unternehmen .panel-col-bottom .pane-publications .more-link, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .views-row .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-name-node-link, body.page-unternehmen .panel-col-bottom .views-row .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications main .center-wrapper form .form-actions, main .center-wrapper form body.page-unternehmen .panel-col-bottom .pane-publications .form-actions, body.page-unternehmen .panel-col-bottom .pane-publications body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane body.page-unternehmen .panel-col-bottom .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .panel-col-bottom .pane-publications .field-item {
+    width: 32%;
+    z-index: 10;
+    right: 0;
+    padding: 15px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+body.page-unternehmen .panel-col-bottom .pane-job-offers {
+  margin-top: 50px; }
+  body.page-unternehmen .panel-col-bottom .pane-job-offers h1 {
+    background-color: transparent; }
+  body.page-unternehmen .panel-col-bottom .pane-job-offers .view-header {
+    background-color: transparent; }
+    body.page-unternehmen .panel-col-bottom .pane-job-offers .view-header p {
+      width: 65%;
+      margin: 20px 0;
+      line-height: 23px; }
+  body.page-unternehmen .panel-col-bottom .pane-job-offers .views-row {
+    background: #fff;
+    padding: 15px; }
+    body.page-unternehmen .panel-col-bottom .pane-job-offers .views-row .field-name-title {
+      height: 80px;
+      padding: 10px 0;
+      overflow: hidden; }
+      body.page-unternehmen .panel-col-bottom .pane-job-offers .views-row .field-name-title p {
+        margin: 20px 0; }
+    body.page-unternehmen .panel-col-bottom .pane-job-offers .views-row .field-name-node-link {
+      margin-top: 30px; }
 
 /*# sourceMappingURL=base.css.map */
