@@ -9,6 +9,11 @@
 
 .wrapper{
   @include wrapper;
+  @extend .clearfix;
+}
+
+.wrapper-959{
+  max-width: 768px;
 }
 
 .transition {
@@ -50,6 +55,17 @@
 }
 
 .panel-2col-stacked .panel-separator{
+  display: none;
+}
+
+.field-item{
+  a{
+    color: $link-active;
+  }
+}
+
+//---  for textarea ---
+.resizable-textarea .grippie {
   display: none;
 }
 
@@ -240,13 +256,16 @@
       overflow: hidden;
     }
     .field-type-text-long{
-      min-height: 72px;
+      height: 100px;
       overflow: hidden;
       padding: 20px 0;
       .field-item{
         font-family: $font-light;
         font-size: 16px;
         line-height: 20px;
+      }
+      p{
+        margin: 0;
       }
     }
     .field-type-link-field{
