@@ -26,13 +26,15 @@
     }
   }
   main{
-    .group-slider-info{
-      max-width: $page-width;
-      margin-left: -$page-width*0.5;
-      width: 85%;
-      .field-item{
-        font-size: 30px;
-        line-height: 40px;
+    .panel-col-top{
+      .group-slider-info{
+        max-width: $page-width;
+        margin-left: -$page-width*0.5;
+        width: 85%;
+        .field-item{
+          font-size: 30px;
+          line-height: 40px;
+        }
       }
     }
     .pane-menu-menu-contact-us{
@@ -42,13 +44,15 @@
       max-width: $page-width;
       padding-bottom: 15px;
       .panel-col-first{
+        width: 100%;
         .more-link{
           position: relative;
+          margin-top: 25px;
           bottom: 0;
         } 
       }
       .panel-col-last{
-        .more-link.pane-events{
+        .more-link{
           position: relative;
           bottom: 0;
           margin-top: 25px;
@@ -172,7 +176,7 @@
               }
             }
 
-            &:focus, &:active{
+            &:focus, &:active, &:hover{
               padding-top: 62px;
               width: 100%;
               height: auto;
@@ -236,76 +240,91 @@
   }
 
   body{
-      .panel-col-top{
-        .group-slider-info{
-          max-width: 100%;
-          margin: 0 15px;
-          left: 0;
-        }
+    .panel-col-top{
+      .group-slider-info{
+        margin: 0 15px;
+        left: 0;
+        bottom: 50px;
+
       }
-      .center-wrapper{
-        max-width: 100%;
-        margin:0 15px;
-        .panel-col-first {
-          width: 100%;
-          .pane-menu-block{
-            ul.menu{
-              li{
-                width: 100%;
-                position: relative;
-                top: 0;
-              }
-              li.distribution{
-                a{
-                  &:after{
-                    display: block;
-                  }
+    }
+
+    .center-wrapper{
+      max-width: 100%;
+      margin:0 15px;
+      .panel-col-first {
+        width: 100%;
+        .pane-menu-block{
+          ul.menu{
+            li{
+              width: 100%;
+              position: relative;
+              top: 0;
+            }
+            li.distribution{
+              a{
+                &:after{
+                  display: block;
                 }
               }
-              li.it-systeme{
-                a {
-                  &:after, &:before{
-                    display: none;
-                  }
-                }
+            }
+            li.it-systeme{
+              a {
                 &:after, &:before{
                   display: none;
                 }
               }
+              &:after, &:before{
+                display: none;
+              }
             }
           }
         }
       }
+    }
 
-
-      .panel-col-bottom {
-        .inside{
-          margin: 0 15px;
-          .pane-fieldable-panels-pane{
-            width: 100%;
-            margin: 0;
-            margin-top: 15px;
-            .field-name-title-ds{
-              height: auto;
-            }
-            .field-type-text-long{
-              margin: 20px 0;
-              padding: 0;
-            }
+    .panel-col-bottom {
+      .inside{
+        margin: 0 15px;
+        .pane-fieldable-panels-pane{
+          width: 100%;
+          margin: 0;
+          margin-top: 15px;
+          .field-name-title-ds{
+            height: auto;
+          }
+          .field-type-text-long{
+            margin: 20px 0;
+            padding: 0;
           }
         }
       }
+    }
+  }
 
+
+//--------------- Page Home --------------------
+  body.page-home{
+    .center-wrapper{
+      margin-top: 0;
+    }
+    .slick-slider{
+      .field-type-image{
+        height: 300px;
+      }
+    }
   }
 
 
 //---------------  Competencies Page ---------------
-
   body:not(.page-home){
+    .header-banner-image{
+      height: 300px;
+    }
     .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
       width: 100%;
     }
-    .center-wrapper{
+    .panel-col-first{
       margin-top: -150px;
     }
     .panel-col-bottom{
@@ -315,6 +334,14 @@
     }
     .pane-clients-highlight{
       display: none;
+    }
+  }
+
+
+//---------------  References Page ---------------
+  body.page-referenzen{
+    .center-wrapper{
+      margin-top: -150px;
     }
 
     .pane-clients-referenzen{
@@ -327,28 +354,99 @@
           width: 100%;
           margin: 0;
           margin-top: 5px;
+          label{
+            text-align: left;
+          }
         }
       }
+
       .view-content{
         margin: 0;
         .views-row{
           width: 100%;
           margin:0;
           margin-top: 15px;
+          .field-type-text-long{
+            height: auto;
+          }
         }
       }
     }
   }
 
+
+//---------------  Network Page ---------------
+  body.page-netzwerk {
+    .pane-fieldable-panels-pane .field-item{
+      h1{
+        padding-bottom: 0;
+        margin-bottom: 20px;
+      }
+      h3{
+        padding: 0;
+        margin: 20px 0 5px 0;
+      }
+    }
+    .panel-col-bottom{
+      .inside{
+        .pane-teams .views-row{
+          width:100%;
+          margin: 0;
+          margin-top: 15px;
+          .field-name-node-link{
+            display: inline-block;
+            width: auto;
+            position: absolute;
+            bottom: 15px;
+          }
+          .field-type-image{
+            height: auto;
+            img{
+              float: none;
+            }
+          }
+        }
+        .pane-sponsors .views-row{
+          width:100%;
+          margin: 0;
+          margin-top: 15px;
+        }
+      }
+
+    }
+    .view-filters{
+      .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item{
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+        label{
+          text-align: left;
+        }
+      }
+    }
+  }
+
+
+//---------------  Contact Page ---------------
+  body.page-contact{
+    main{
+      .panel-col-bottom{
+        .inside{
+          margin:0 15px;
+        }
+      }
+      .colorized-gmap-common{
+        height: 300px;
+      }
+    }
+  }
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
 
 
 

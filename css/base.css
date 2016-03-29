@@ -290,8 +290,8 @@ form.email input[type='submit'] {
   .events-calendar-form .date-submit input:first-child {
     margin-left: 0; }
 
-.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .inside .pane-content:after, .inside .view-filters .views-exposed-widgets .views-exposed-widget .views-widget:after, .inside .view-content:after, body.page-netzwerk .inside .view-content:after, body.page-unternehmen .inside .view-content:after, main .center-wrapper form:after, header .region-header #block-system-main-menu .content:after, header .region-header #block-system-main-menu .content > ul.menu > li > ul.menu:after, header .region-header .block-lang-switcher ul.language-switcher-locale-url:after, main .panel-col-bottom:after, main .panel-col-bottom .inside:after, main .center-wrapper:after, main .center-wrapper .panel-col-bottom .inside:after, body:not(.page-home) .panel-col-bottom .panel-panel:after, body.page-referenzen .panel-col-bottom:after, body.page-referenzen .pane-clients-referenzen:after, body.page-contact main .center-wrapper .panel-col-first .pane-address-description:after,
-body.page-node- main .center-wrapper .panel-col-first .pane-address-description:after {
+.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .inside .pane-content:after, .inside .view-filters .views-exposed-widgets .views-exposed-widget .views-widget:after, .inside .view-content:after, main .center-wrapper form:after, header .region-header #block-system-main-menu .content:after, header .region-header #block-system-main-menu .content > ul.menu > li > ul.menu:after, header .region-header .block-lang-switcher ul.language-switcher-locale-url:after, body .center-wrapper:after, body .panel-col-bottom .inside:after, body.page-referenzen .panel-col-bottom:after, body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content:after, body.page-contact .panel-col-first .pane-address-description:after,
+body.page-node- .panel-col-first .pane-address-description:after, body.page-unternehmen .inside .view-content:after {
   content: "";
   clear: both;
   display: table; }
@@ -300,15 +300,15 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
   max-width: 960px;
   margin: 0 auto; }
 
-.wrapper-959 {
-  max-width: 768px; }
-
-.transition, .primary-input, .search-block-form .form-search, form.email input[type='text'], .secondary-button:hover, form.email input[type='submit']:hover, .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a, body.page-node- main .panel-col-first .pane-return-link .pane-content a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input, body.page-node- main .panel-col-first .pane-return-link .pane-content input, .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label, header .region-header #block-system-main-menu .content ul, header .region-header #block-system-main-menu .content li, header .region-header #block-system-main-menu .content a, main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button, body:not(.page-home) .pane-menu-block ul.menu li:not(.supply-chain-management) a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:before, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:before, body:not(.page-home) .pane-menu-block ul.menu li a {
+.transition, .primary-input, .search-block-form .form-search, form.email input[type='text'], .secondary-button:hover, form.email input[type='submit']:hover, .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item a, body.page-node- main .panel-col-first .pane-return-link .pane-content a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item input, body.page-node- main .panel-col-first .pane-return-link .pane-content input, .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label, header .region-header #block-system-main-menu .content ul, header .region-header #block-system-main-menu .content li, header .region-header #block-system-main-menu .content a, body .panel-col-top .slick-dots li button, body:not(.page-home) .pane-menu-block ul.menu li:not(.supply-chain-management) a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme:before, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:after, body:not(.page-home) .pane-menu-block ul.menu li.it-systeme a:before, body:not(.page-home) .pane-menu-block ul.menu li a {
   transition: all .2s ease 0s; }
 
-.more-link, .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, main .center-wrapper form .form-actions, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-node- main .panel-col-first .pane-return-link .pane-content {
+.panel-2col-stacked .panel-separator {
+  display: none; }
+
+.more-link, .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, main .center-wrapper form .form-actions, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-node- main .panel-col-first .pane-return-link .pane-content {
   position: absolute; }
-  .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a, body.page-node- main .panel-col-first .pane-return-link .pane-content a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input, body.page-node- main .panel-col-first .pane-return-link .pane-content input {
+  .more-link a, .panel-col-bottom .views-row .field-type-link-field .field-item a, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a, .panel-col-bottom .views-row .field-name-node-link a, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a, main .center-wrapper form .form-actions a, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item a, body.page-node- main .panel-col-first .pane-return-link .pane-content a, .more-link input, .panel-col-bottom .views-row .field-type-link-field .field-item input, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input, .panel-col-bottom .views-row .field-name-node-link input, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input, main .center-wrapper form .form-actions input, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item input, body.page-node- main .panel-col-first .pane-return-link .pane-content input {
     position: relative;
     display: block;
     width: 100%;
@@ -328,15 +328,12 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
     -moz-border-radius: 3px;
     border-radius: 3px;
     outline: none; }
-    .more-link a:hover, .panel-col-bottom .views-row .field-type-link-field .field-item a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:hover, .panel-col-bottom .views-row .field-name-node-link a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:hover, main .center-wrapper form .form-actions a:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:hover, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a:hover, body.page-node- main .panel-col-first .pane-return-link .pane-content a:hover, .more-link input:hover, .panel-col-bottom .views-row .field-type-link-field .field-item input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:hover, .panel-col-bottom .views-row .field-name-node-link input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:hover, main .center-wrapper form .form-actions input:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:hover, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input:hover, body.page-node- main .panel-col-first .pane-return-link .pane-content input:hover {
+    .more-link a:hover, .panel-col-bottom .views-row .field-type-link-field .field-item a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:hover, .panel-col-bottom .views-row .field-name-node-link a:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:hover, main .center-wrapper form .form-actions a:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:hover, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item a:hover, body.page-node- main .panel-col-first .pane-return-link .pane-content a:hover, .more-link input:hover, .panel-col-bottom .views-row .field-type-link-field .field-item input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:hover, .panel-col-bottom .views-row .field-name-node-link input:hover, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:hover, main .center-wrapper form .form-actions input:hover, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:hover, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item input:hover, body.page-node- main .panel-col-first .pane-return-link .pane-content input:hover {
       background-color: rgba(0, 102, 153, 0.3); }
-    .more-link a:after, .panel-col-bottom .views-row .field-type-link-field .field-item a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:after, .panel-col-bottom .views-row .field-name-node-link a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:after, main .center-wrapper form .form-actions a:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:after, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item a:after, body.page-node- main .panel-col-first .pane-return-link .pane-content a:after, .more-link input:after, .panel-col-bottom .views-row .field-type-link-field .field-item input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:after, .panel-col-bottom .views-row .field-name-node-link input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:after, main .center-wrapper form .form-actions input:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:after, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item input:after, body.page-node- main .panel-col-first .pane-return-link .pane-content input:after {
+    .more-link a:after, .panel-col-bottom .views-row .field-type-link-field .field-item a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item a:after, .panel-col-bottom .views-row .field-name-node-link a:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link a:after, main .center-wrapper form .form-actions a:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link a:after, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item a:after, body.page-node- main .panel-col-first .pane-return-link .pane-content a:after, .more-link input:after, .panel-col-bottom .views-row .field-type-link-field .field-item input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item input:after, .panel-col-bottom .views-row .field-name-node-link input:after, .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link input:after, main .center-wrapper form .form-actions input:after, body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link input:after, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item input:after, body.page-node- main .panel-col-first .pane-return-link .pane-content input:after {
       content: '\2008\2008\2008';
       display: inline;
       background: url("../images/link-arrow.png") no-repeat 100% 3px; }
-
-.panel-2col-stacked .panel-separator {
-  display: none; }
 
 .field-item a {
   color: #006699; }
@@ -404,7 +401,7 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
             width: 100%;
             font-family: "helvetica-bold", sans-serif;
             font-size: 13px;
-            padding: 6px 0;
+            padding: 5px 15px;
             color: #fff;
             background: #006699;
             vertical-align: middle;
@@ -412,7 +409,10 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
             text-transform: uppercase;
             -webkit-border-radius: 2px;
             -moz-border-radius: 2px;
-            border-radius: 2px; }
+            border-radius: 2px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box; }
             .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label:hover {
               color: #E59900; }
         .inside .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item:not(:nth-child(3n)) {
@@ -426,7 +426,7 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
 .inside .view-content {
   clear: both; }
 
-.pane-clients-highlight, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight {
+.pane-clients-highlight, body.page-referenzen .panel-col-bottom .pane-clients-highlight {
   width: 32.33%;
   float: right;
   position: relative;
@@ -441,25 +441,25 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .pane-clients-highlight .pane-title, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight .pane-title {
+  .pane-clients-highlight .pane-title, body.page-referenzen .panel-col-bottom .pane-clients-highlight .pane-title {
     margin: 0;
     padding: 0 0 15px;
     font-size: 24px;
     line-height: 28px; }
-  .pane-clients-highlight .views-row, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight .views-row {
+  .pane-clients-highlight .views-row, body.page-referenzen .panel-col-bottom .pane-clients-highlight .views-row {
     background-color: rgba(0, 102, 153, 0.2);
     padding: 10px;
     margin: 0;
     width: 100%; }
-    .pane-clients-highlight .views-row .field-name-title, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight .views-row .field-name-title {
+    .pane-clients-highlight .views-row .field-name-title, body.page-referenzen .panel-col-bottom .pane-clients-highlight .views-row .field-name-title {
       height: auto;
       padding-top: 15px; }
-    .pane-clients-highlight .views-row .field-type-image, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight .views-row .field-type-image {
+    .pane-clients-highlight .views-row .field-type-image, body.page-referenzen .panel-col-bottom .pane-clients-highlight .views-row .field-type-image {
       height: auto;
       padding-top: 20px;
       padding-bottom: 5px;
       max-height: 90px; }
-    .pane-clients-highlight .views-row .field-name-node-link a:after, body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight .views-row .field-name-node-link a:after {
+    .pane-clients-highlight .views-row .field-name-node-link a:after {
       content: '\2008\2008\2008';
       display: inline;
       background: url("../images/link-arrow.png") no-repeat 100% 3px; }
@@ -487,7 +487,7 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
     padding: 0;
     overflow: hidden; }
   .panel-col-bottom .views-row .field-type-text-long, .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long {
-    height: 100px;
+    height: 60px;
     overflow: hidden;
     padding: 20px 0; }
     .panel-col-bottom .views-row .field-type-text-long .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-text-long .field-item {
@@ -503,98 +503,13 @@ body.page-node- main .center-wrapper .panel-col-first .pane-address-description:
   .panel-col-bottom .views-row .field-name-title-ds, .panel-col-bottom .pane-fieldable-panels-pane .field-name-title-ds {
     height: 100px; }
   .panel-col-bottom .views-row .field-name-title, .panel-col-bottom .pane-fieldable-panels-pane .field-name-title {
-    height: 60px; }
+    height: 70px;
+    overflow: hidden; }
   .panel-col-bottom .views-row .field-type-image, .panel-col-bottom .pane-fieldable-panels-pane .field-type-image {
-    display: table;
     width: 100%;
     height: 70px;
-    padding: 15px 0 5px; }
-
-body.page-netzwerk .inside .view-content {
-  margin: 0; }
-  body.page-netzwerk .inside .view-content .views-row:not(:nth-child(3n)) {
-    margin-right: 2%; }
-  body.page-netzwerk .inside .view-content .views-row {
-    position: relative;
-    width: 32%;
-    background-color: rgba(0, 102, 153, 0.1);
-    padding: 0;
-    margin: 0 0 15px 0;
-    min-height: 130px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    body.page-netzwerk .inside .view-content .views-row .group-advisor-short {
-      float: left;
-      width: 65%;
-      padding: 15px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-      body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link {
-        position: absolute;
-        bottom: 10px;
-        max-width: 70%; }
-        body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link a {
-          font-family: "helvetica-medium", sans-serif;
-          font-size: 16px;
-          line-height: 20px;
-          color: #000;
-          width: auto;
-          text-align: left;
-          padding: 0;
-          border-bottom: 1px solid rgba(0, 102, 153, 0.3);
-          background: none;
-          text-transform: none;
-          text-decoration: none; }
-          body.page-netzwerk .inside .view-content .views-row .group-advisor-short .field-name-node-link a:after {
-            display: none; }
-    body.page-netzwerk .inside .view-content .views-row .field-name-field-advisor-photo {
-      float: right;
-      width: 35%;
-      padding: 0; }
-      body.page-netzwerk .inside .view-content .views-row .field-name-field-advisor-photo img {
-        float: right;
-        display: block; }
-
-body.page-unternehmen .inside .view-content .views-row:not(:nth-child(3n)) {
-  margin-right: 15px; }
-body.page-unternehmen .inside .view-content .views-row {
-  width: 32%;
-  background-color: rgba(0, 102, 153, 0.1);
-  padding: 0;
-  margin: 0 0 15px 0;
-  min-height: 130px; }
-  body.page-unternehmen .inside .view-content .views-row .group-team-member-short {
-    float: left;
-    width: 65%;
-    padding: 15px 15px 50px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link {
-      position: absolute;
-      bottom: 10px;
-      max-width: 70%; }
-      body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link a {
-        font-family: "helvetica-medium", sans-serif;
-        font-size: 16px;
-        line-height: 20px;
-        color: #000;
-        width: auto;
-        text-align: left;
-        padding: 0;
-        border-bottom: 1px solid rgba(0, 102, 153, 0.3);
-        background: none;
-        text-transform: none;
-        text-decoration: none; }
-  body.page-unternehmen .inside .view-content .views-row .field-type-image {
-    float: right;
-    width: 35%;
-    padding: 0; }
-    body.page-unternehmen .inside .view-content .views-row .field-type-image img {
-      float: right;
-      display: block; }
+    padding: 15px 0;
+    text-align: center; }
 
 main .center-wrapper .pane-newsletter {
   margin-top: 15px;
@@ -765,19 +680,19 @@ main .center-wrapper form .form-actions {
 /*____________________ Colors _________________*/
 /*____________________ Fonts _________________*/
 /*____________________ Wrapper  _________________*/
-.breadcrumb, .page-title {
-  display: none; }
-
 #admin-menu {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
 
+.breadcrumb, .page-title {
+  display: none; }
+
 /* Body
 -------------------------------------------------------------- */
 body {
-  margin-top: 0;
   background: #E8E8E8;
+  margin-top: 0;
   padding: 0; }
 
 header {
@@ -956,7 +871,7 @@ header {
       header .region-header #block-system-main-menu .content > ul.menu li:hover > ul.menu > li > ul.menu li div.view-content .field-items span {
         font-family: "helvetica-bold", sans-serif;
         font-size: 13px; }
-    header .region-header #block-system-main-menu .content .more-link, header .region-header #block-system-main-menu .content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content .form-actions, header .region-header #block-system-main-menu .content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content .pane-content,
+    header .region-header #block-system-main-menu .content .more-link, header .region-header #block-system-main-menu .content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content .form-actions, header .region-header #block-system-main-menu .content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content .field-name-node-link, header .region-header #block-system-main-menu .content body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content .field-item, header .region-header #block-system-main-menu .content body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content .pane-content,
     header .region-header #block-system-main-menu .content .first.last.leaf.newsletter-link {
       bottom: 30px; }
   header .region-header .block-lang-switcher {
@@ -1026,20 +941,15 @@ footer {
       width: 100%;
       clear: both; }
 
-.page-wrap {
+body .page-wrap {
   position: relative;
   padding-bottom: 225px;
   min-height: 100%; }
-
-.page-home .center-wrapper {
-  margin-top: -130px; }
-
-.header-banner-image {
+body .header-banner-image {
   height: 630px;
   overflow: hidden;
-  position: relative;
-  margin-bottom: 15px; }
-  .header-banner-image img {
+  position: relative; }
+  body .header-banner-image img {
     max-width: none;
     min-width: 100%;
     min-height: 100%;
@@ -1050,73 +960,90 @@ footer {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%); }
-
-main .panel-2col-stacked .panel-col-top {
+body .panel-2col-stacked .panel-col-top, body .panel-2col-stacked .panel-col-bottom {
   position: relative;
   width: 100%;
-  height: 630px; }
-  main .panel-2col-stacked .panel-col-top .inside,
-  main .panel-2col-stacked .panel-col-top .field-collection-view,
-  main .panel-2col-stacked .panel-col-top .field-collection-container,
-  main .panel-2col-stacked .panel-col-top .field-collection-container .field-item {
+  margin-bottom: 15px;
+  overflow: hidden; }
+  body .panel-2col-stacked .panel-col-top .inside,
+  body .panel-2col-stacked .panel-col-top .field-collection-view,
+  body .panel-2col-stacked .panel-col-top .field-collection-container,
+  body .panel-2col-stacked .panel-col-top .field-collection-container .field-item, body .panel-2col-stacked .panel-col-bottom .inside,
+  body .panel-2col-stacked .panel-col-bottom .field-collection-view,
+  body .panel-2col-stacked .panel-col-bottom .field-collection-container,
+  body .panel-2col-stacked .panel-col-bottom .field-collection-container .field-item {
     margin-bottom: 0;
     padding: 0;
     border: none; }
-  main .panel-2col-stacked .panel-col-top .slick .slick-initialized .slick-slide {
-    position: relative; }
-  main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots {
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    right: 30px;
-    text-align: center;
-    transform: translateY(-50%); }
-    main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li {
-      margin-top: 5px; }
-      main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button {
-        position: relative;
-        width: 12px;
-        height: 12px;
-        background: #fff;
-        border-radius: 50%;
-        outline: none;
-        text-indent: -9999px;
-        border: none; }
-        main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button:hover {
-          background: #9C9C9C; }
-        main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li button:before {
-          content: '';
-          position: absolute;
-          top: -1px;
-          left: -1px;
-          width: 10px;
-          height: 10px;
-          border: 2px solid #fff;
-          border-radius: 50%; }
-      main .panel-2col-stacked .panel-col-top .slick-slider .slick-dots li.slick-active button {
-        background: #006699; }
-  main .panel-2col-stacked .panel-col-top .slick-slider .field-collection-view {
-    margin: 0; }
-  main .panel-2col-stacked .panel-col-top .slick-slider .field-type-image {
-    position: relative;
-    height: 630px;
-    overflow: hidden; }
-    main .panel-2col-stacked .panel-col-top .slick-slider .field-type-image img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      cursor: pointer; }
-main .panel-col-bottom {
+body .center-wrapper {
   max-width: 960px;
   margin: 0 auto;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative; }
-  main .panel-col-bottom .inside {
-    margin: 0 -.5% 0; }
-main .group-slider-info {
+  position: relative;
+  z-index: 10;
+  padding: 15px 15px 70px;
   background: #fff;
-  opacity: .9;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  body .center-wrapper .panel-col-first {
+    float: left;
+    width: 66%; }
+    body .center-wrapper .panel-col-first .inside {
+      margin: 0; }
+  body .center-wrapper .panel-col-last {
+    margin-top: 15px;
+    float: right;
+    width: 32%; }
+    body .center-wrapper .panel-col-last .inside {
+      margin: 0; }
+    body .center-wrapper .panel-col-last .more-link, body .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field body .center-wrapper .panel-col-last .field-item, body .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field body .center-wrapper .panel-col-last .field-item, body .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row body .center-wrapper .panel-col-last .field-name-node-link, body .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane body .center-wrapper .panel-col-last .field-name-node-link, body main .center-wrapper .panel-col-last form .form-actions, main body .center-wrapper .panel-col-last form .form-actions, body main .center-wrapper form .panel-col-last .form-actions, main body .center-wrapper form .panel-col-last .form-actions, body.page-aktuelles .center-wrapper .panel-col-last .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane .center-wrapper .panel-col-last .field-name-node-link, body.page-unternehmen .center-wrapper .panel-col-last .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .center-wrapper .panel-col-last .field-item, body.page-node- .center-wrapper .panel-col-last main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-col-last .pane-content {
+      width: calc(32.33% - 15px); }
+body .panel-col-top .slick .slick-initialized .slick-slide {
+  position: relative; }
+body .panel-col-top .slick-dots {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 30px;
+  text-align: center;
+  transform: translateY(-50%); }
+  body .panel-col-top .slick-dots li {
+    margin-top: 5px; }
+    body .panel-col-top .slick-dots li button {
+      position: relative;
+      width: 12px;
+      height: 12px;
+      background: #fff;
+      border-radius: 50%;
+      outline: none;
+      text-indent: -9999px;
+      border: none; }
+      body .panel-col-top .slick-dots li button:hover {
+        background: #9C9C9C; }
+      body .panel-col-top .slick-dots li button:before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #fff;
+        border-radius: 50%; }
+    body .panel-col-top .slick-dots li.slick-active button {
+      background: #006699; }
+body .panel-col-top .field-collection-view {
+  margin: 0; }
+body .panel-col-top .field-type-image img {
+  position: relative;
+  max-width: none;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  cursor: pointer; }
+body .panel-col-top .group-slider-info {
+  background: #fff;
+  opacity: .8;
   width: 530px;
   position: absolute;
   left: 50%;
@@ -1126,12 +1053,12 @@ main .group-slider-info {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  main .group-slider-info .field-item {
+  body .panel-col-top .group-slider-info .field-item {
     font-family: "helvetica-light", sans-serif;
     font-size: 40px;
     line-height: 54px;
     text-transform: uppercase; }
-  main .group-slider-info .field-type-link-field a {
+  body .panel-col-top .group-slider-info .field-type-link-field a {
     position: relative;
     font-family: "helvetica-light", sans-serif;
     font-size: 16px;
@@ -1140,7 +1067,86 @@ main .group-slider-info {
     text-transform: none;
     display: block;
     z-index: 10; }
-main .pane-menu-menu-contact-us {
+body .panel-panel .contextual-links-region {
+  position: inherit; }
+body .panel-panel .pane-webform {
+  margin-top: 50px; }
+  body .panel-panel .pane-webform fieldset.webform-component--registration {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    body .panel-panel .pane-webform fieldset.webform-component--registration legend span {
+      font-family: "helvetica-light", sans-serif;
+      font-size: 24px;
+      line-height: 30px; }
+    body .panel-panel .pane-webform fieldset.webform-component--registration fieldset,
+    body .panel-panel .pane-webform fieldset.webform-component--registration .webform-component-textarea {
+      width: 100%;
+      margin: 0; }
+  body .panel-panel .pane-webform .form-actions {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 0; }
+body .panel-panel h2 a {
+  border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+  color: #000; }
+  body .panel-panel h2 a:hover {
+    border-bottom: none; }
+body .panel-panel h2.pane-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #006699;
+  padding: 0;
+  padding-bottom: 15px; }
+  body .panel-panel h2.pane-title a {
+    border-bottom: none; }
+body .panel-panel .date-display-single {
+  color: #a7a7a7; }
+body .panel-panel .field-name-field-news-subtitle .field-item,
+body .panel-panel .field-name-field-event-subtitle .field-item {
+  font-family: "helvetica-light", sans-serif;
+  display: inline;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 15px;
+  background: url("../images/link-arrow.png") no-repeat 100% 5px; }
+body .panel-panel .field-name-field-event-subtitle {
+  padding: 12px 0; }
+  body .panel-panel .field-name-field-event-subtitle .field-item {
+    background: none; }
+body .panel-panel .field-name-field-event-location,
+body .panel-panel .field-name-field-event-date {
+  font-family: "helvetica-bold", sans-serif;
+  color: #E59900;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 10px; }
+body .panel-panel .field-name-field-event-date {
+  padding-top: 0; }
+  body .panel-panel .field-name-field-event-date .date-display-single {
+    color: #E59900; }
+body .panel-panel .field-name-field-event-cost {
+  margin-top: 15px; }
+body .panel-panel .view-content .more-link, body .panel-panel .view-content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field body .panel-panel .view-content .field-item, body .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field body .panel-panel .view-content .field-item, body .panel-panel .view-content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row body .panel-panel .view-content .field-name-node-link, body .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane body .panel-panel .view-content .field-name-node-link, body .panel-panel .view-content main .center-wrapper form .form-actions, main .center-wrapper form body .panel-panel .view-content .form-actions, body.page-aktuelles .panel-panel .view-content .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane .panel-panel .view-content .field-name-node-link, body.page-unternehmen .panel-panel .view-content .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .panel-panel .view-content .field-item, body.page-node- .panel-panel .view-content main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .panel-panel .view-content .pane-content {
+  bottom: 15px; }
+body .panel-panel .more-link, body .panel-panel .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field body .panel-panel .field-item, body .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field body .panel-panel .field-item, body .panel-panel .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row body .panel-panel .field-name-node-link, body .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane body .panel-panel .field-name-node-link, body .panel-panel main .center-wrapper form .form-actions, main .center-wrapper form body .panel-panel .form-actions, body.page-aktuelles .panel-panel .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane .panel-panel .field-name-node-link, body.page-unternehmen .panel-panel .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .panel-panel .field-item, body.page-node- .panel-panel main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .panel-panel .pane-content {
+  bottom: 15px; }
+body .panel-col-bottom {
+  max-width: 960px;
+  margin: 0 auto; }
+  body .panel-col-bottom .inside {
+    margin: 0 -.5% 0; }
+  body .panel-col-bottom .inside {
+    margin: 0 -0.5%; }
+  body .panel-col-bottom .field-type-link-field {
+    padding-top: 30px; }
+body .pane-menu-menu-contact-us {
   position: absolute;
   bottom: 200px;
   right: 50%;
@@ -1152,7 +1158,7 @@ main .pane-menu-menu-contact-us {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px; }
-  main .pane-menu-menu-contact-us .pane-content a {
+  body .pane-menu-menu-contact-us .pane-content a {
     font-family: "helvetica-bold", sans-serif;
     font-size: 17px;
     line-height: 21px;
@@ -1162,146 +1168,37 @@ main .pane-menu-menu-contact-us {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px; }
-    main .pane-menu-menu-contact-us .pane-content a:after {
+    body .pane-menu-menu-contact-us .pane-content a:after {
       content: '';
       display: inline-block;
       background: url("../images/link-arrow.png") no-repeat 100% 0;
       background-size: auto 100%;
       width: 15px;
       height: 13px; }
-main .center-wrapper {
-  max-width: 960px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 10;
-  padding: 15px 15px 70px;
-  background: #fff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  main .center-wrapper .panel-panel .views-row {
-    padding-bottom: 25px; }
-  main .center-wrapper .panel-panel .contextual-links-region {
-    position: inherit; }
-  main .center-wrapper .panel-panel .pane-webform {
-    margin-top: 50px; }
-    main .center-wrapper .panel-panel .pane-webform fieldset.webform-component--registration {
-      width: 100%;
-      margin: 0;
-      padding: 15px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-      main .center-wrapper .panel-panel .pane-webform fieldset.webform-component--registration legend span {
-        font-family: "helvetica-light", sans-serif;
-        font-size: 24px;
-        line-height: 30px; }
-      main .center-wrapper .panel-panel .pane-webform fieldset.webform-component--registration fieldset,
-      main .center-wrapper .panel-panel .pane-webform fieldset.webform-component--registration .webform-component-textarea {
-        width: 100%;
-        margin: 0; }
-    main .center-wrapper .panel-panel .pane-webform .form-actions {
-      width: 100%;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      bottom: 0; }
-  main .center-wrapper .panel-panel h2 {
-    font-family: "helvetica-light", sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-    margin: 0; }
-    main .center-wrapper .panel-panel h2 a {
-      border-bottom: 1px solid rgba(0, 102, 153, 0.3);
-      color: #000; }
-      main .center-wrapper .panel-panel h2 a:hover {
-        border-bottom: none; }
-  main .center-wrapper .panel-panel h2.pane-title {
-    color: #006699;
-    margin-bottom: 15px; }
-    main .center-wrapper .panel-panel h2.pane-title a {
-      border-bottom: none; }
-  main .center-wrapper .panel-panel .date-display-single {
-    color: #a7a7a7; }
-  main .center-wrapper .panel-panel .field-name-field-news-subtitle .field-item,
-  main .center-wrapper .panel-panel .field-name-field-event-subtitle .field-item {
-    font-family: "helvetica-light", sans-serif;
-    display: inline;
-    font-size: 14px;
-    line-height: 20px;
-    padding-right: 15px;
-    background: url("../images/link-arrow.png") no-repeat 100% 5px; }
-  main .center-wrapper .panel-panel .field-name-field-event-subtitle {
-    padding: 12px 0; }
-    main .center-wrapper .panel-panel .field-name-field-event-subtitle .field-item {
-      background: none; }
-  main .center-wrapper .panel-panel .field-name-field-event-location,
-  main .center-wrapper .panel-panel .field-name-field-event-date {
-    font-family: "helvetica-bold", sans-serif;
-    color: #E59900;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-top: 10px; }
-  main .center-wrapper .panel-panel .field-name-field-event-date {
-    padding-top: 0; }
-    main .center-wrapper .panel-panel .field-name-field-event-date .date-display-single {
-      color: #E59900; }
-  main .center-wrapper .panel-panel .field-name-field-event-cost {
-    margin-top: 15px; }
-  main .center-wrapper .panel-panel .view-content .more-link, main .center-wrapper .panel-panel .view-content .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item, main .center-wrapper .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item, main .center-wrapper .panel-panel .view-content .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content form .form-actions, main .center-wrapper form .panel-panel .view-content .form-actions, main .center-wrapper .panel-panel .view-content body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-panel .view-content .field-name-node-link, main .center-wrapper .panel-panel .view-content body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .view-content .field-item, body.page-node- main .center-wrapper .panel-panel .view-content .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-panel .view-content .pane-content {
-    bottom: 15px; }
-  main .center-wrapper .panel-panel .more-link, main .center-wrapper .panel-panel .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-panel .field-item, main .center-wrapper .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .field-item, main .center-wrapper .panel-panel .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-panel .field-name-node-link, main .center-wrapper .panel-panel .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-panel .field-name-node-link, main .center-wrapper .panel-panel form .form-actions, main .center-wrapper form .panel-panel .form-actions, main .center-wrapper .panel-panel body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-panel .field-name-node-link, main .center-wrapper .panel-panel body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-panel .field-item, body.page-node- main .center-wrapper .panel-panel .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-panel .pane-content {
-    bottom: 15px; }
-  main .center-wrapper .panel-col-first {
-    float: left;
-    width: 63%; }
-    main .center-wrapper .panel-col-first .inside {
-      margin: 0; }
-  main .center-wrapper .panel-col-last {
-    float: right;
-    width: 32%; }
-    main .center-wrapper .panel-col-last .inside {
-      margin: 0; }
-    main .center-wrapper .panel-col-last .more-link.pane-events, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .pane-events.field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-events.field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .pane-events.field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .pane-events.field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last form .pane-events.form-actions, main .center-wrapper form .panel-col-last .pane-events.form-actions, main .center-wrapper .panel-col-last body.page-aktuelles .panel-col-first .panel-pane .pane-events.field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .pane-events.field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, body.page-node- main .center-wrapper .panel-col-last .panel-col-first .pane-return-link .pane-events.pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-col-last .pane-events.pane-content {
-      width: calc(32.33% - 15px); }
-  main .center-wrapper .panel-col-bottom .inside {
-    margin: 0 -0.5%; }
-  main .center-wrapper .panel-col-bottom .pane-bundle-link-pane .field-name-title-ds {
-    height: 100px;
-    overflow: hidden; }
-    main .center-wrapper .panel-col-bottom .pane-bundle-link-pane .field-name-title-ds h3 {
-      margin: 0;
-      padding: 0;
-      color: #006699; }
-  main .center-wrapper .panel-col-bottom .pane-bundle-link-pane .field-type-text-long {
-    height: 69px;
-    overflow: hidden; }
-    main .center-wrapper .panel-col-bottom .pane-bundle-link-pane .field-type-text-long p {
-      margin: 0; }
-  main .center-wrapper .panel-col-bottom .pane-bundle-link-pane .field-type-link-field {
-    padding-top: 30px; }
+
+body.page-home .center-wrapper {
+  margin-top: -130px; }
 
 body:not(.page-home) .center-wrapper {
+  margin-top: -400px;
   margin-bottom: 15px;
   padding: 0;
   background: none; }
 body:not(.page-home) .panel-col-first {
   width: 66%;
   padding: 30px 15px;
-  margin-top: -400px;
   background: #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  body:not(.page-home) .panel-col-first .inside {
+    margin: 0; }
 body:not(.page-home) .pane-fieldable-panels-pane .field-item h1 {
   font-family: "helvetica-light", sans-serif;
   font-size: 36px;
   line-height: 40px;
   margin: 0;
   padding-bottom: 20px; }
-body:not(.page-home) .pane-fieldable-panels-pane .field-item h3 {
-  margin: 0; }
 body:not(.page-home) .pane-fieldable-panels-pane .field-item p {
   font-family: "helvetica-light", sans-serif; }
 body:not(.page-home) .pane-menu-block {
@@ -1438,39 +1335,34 @@ body:not(.page-home) .pane-menu-block {
       color: #fff; }
       body:not(.page-home) .pane-menu-block ul.menu li:hover a:after, body:not(.page-home) .pane-menu-block ul.menu li:hover a:before {
         background: #E59900; }
-body:not(.page-home) .panel-col-bottom .pane-bundle-text-block {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background: none; }
-  body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-type-text-long {
-    height: auto; }
-  body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item {
-    padding-left: 15px; }
-    body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item h1 {
-      clear: both;
-      padding: 40px 0 0 0;
-      margin: 0; }
-    body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
-      width: 65%;
-      margin: 15px 0; }
-body:not(.page-home) .panel-col-bottom .panel-panel {
-  margin-top: 15px; }
+body:not(.page-home) .panel-col-bottom {
+  height: auto; }
+  body:not(.page-home) .panel-col-bottom .pane-bundle-text-block {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: none; }
+    body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-type-text-long {
+      height: 100%;
+      padding: 0; }
+    body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item {
+      padding-left: 15px; }
+      body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item h1 {
+        clear: both;
+        padding: 40px 0 0 0;
+        margin: 0; }
+      body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
+        width: 65%;
+        margin: 15px 0; }
 
-body.page-referenzen .center-wrapper {
-  margin-top: -400px; }
-body.page-referenzen .panel-col-bottom {
-  width: 100%; }
-  body.page-referenzen .panel-col-bottom .inside {
-    margin: 0; }
+body.page-referenzen .panel-col-first {
+  display: none; }
 body.page-referenzen .pane-clients-referenzen {
   padding-bottom: 100px; }
   body.page-referenzen .pane-clients-referenzen .pane-title,
   body.page-referenzen .pane-clients-referenzen .view-header,
   body.page-referenzen .pane-clients-referenzen .view-filters {
-    width: 65%; }
+    width: 66%; }
 
 body.page-netzwerk .panel-col-first .field-item h3 {
   color: #006699;
@@ -1482,7 +1374,7 @@ body.page-netzwerk .panel-col-first .field-item p {
 body.page-netzwerk .panel-col-bottom .inside {
   margin: 0; }
   body.page-netzwerk .panel-col-bottom .inside .pane-teams {
-    margin: 15px 0;
+    margin: 10px 0;
     padding: 15px 15px 30px;
     background-color: #fff;
     -webkit-box-sizing: border-box;
@@ -1496,17 +1388,54 @@ body.page-netzwerk .panel-col-bottom .inside {
       padding: 0; }
       body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-header p {
         margin: 15px 0; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .view-content {
+      margin: 0; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row:not(:nth-child(3n)) {
+      margin-right: 2%; }
     body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row {
-      min-height: 100px; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .group-advisor-short {
-        width: 55%; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-title {
-        height: 60px;
-        overflow: hidden; }
-      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-node-link {
-        position: relative;
-        max-width: 100%;
-        bottom: 0; }
+      position: relative;
+      width: 32%;
+      background-color: rgba(0, 102, 153, 0.1);
+      padding: 0;
+      margin: 0 0 15px 0;
+      min-height: 130px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-title {
+      height: 60px; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-node-link {
+      position: absolute;
+      bottom: 15px; }
+      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-node-link a {
+        font-family: "helvetica-medium", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000;
+        width: auto;
+        text-align: left;
+        padding: 0;
+        border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+        background: none;
+        text-transform: none;
+        text-decoration: none; }
+        body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-node-link a:after {
+          display: none; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .group-advisor-short {
+      float: left;
+      width: 65%;
+      padding: 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-field-advisor-photo {
+      float: right;
+      width: 35%;
+      padding: 0;
+      height: auto; }
+      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-field-advisor-photo img {
+        float: right;
+        display: block; }
   body.page-netzwerk .panel-col-bottom .inside .pane-sponsors {
     margin: 15px 0 0; }
     body.page-netzwerk .panel-col-bottom .inside .pane-sponsors h1 {
@@ -1528,7 +1457,10 @@ body.page-netzwerk .panel-col-bottom .inside {
         body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .view-content .views-row .field-type-text-long {
           padding: 0; }
 
+body.page-aktuelles .center-wrapper {
+  margin-top: 0; }
 body.page-aktuelles .panel-col-first {
+  margin-top: -400px;
   padding: 0;
   background: none; }
   body.page-aktuelles .panel-col-first .panel-pane {
@@ -1545,111 +1477,172 @@ body.page-aktuelles .panel-col-first {
       position: relative; }
     body.page-aktuelles .panel-col-first .panel-pane:not(:last-child) {
       margin-bottom: 15px; }
-
-body.page-contact main .center-wrapper .panel-col-first h1.pane-title,
-body.page-node- main .center-wrapper .panel-col-first h1.pane-title {
-  padding: 0; }
-body.page-contact main .center-wrapper .panel-col-first .webform-component--contact-us-description,
-body.page-node- main .center-wrapper .panel-col-first .webform-component--contact-us-description {
-  margin: 5px 0; }
-  body.page-contact main .center-wrapper .panel-col-first .webform-component--contact-us-description p,
-  body.page-node- main .center-wrapper .panel-col-first .webform-component--contact-us-description p {
-    line-height: 23px; }
-    body.page-contact main .center-wrapper .panel-col-first .webform-component--contact-us-description p a,
-    body.page-node- main .center-wrapper .panel-col-first .webform-component--contact-us-description p a {
-      color: #006699; }
-  body.page-contact main .center-wrapper .panel-col-first .webform-component--contact-us-description h3,
-  body.page-node- main .center-wrapper .panel-col-first .webform-component--contact-us-description h3 {
-    margin: 0;
-    color: #006699; }
-body.page-contact main .center-wrapper .panel-col-first form fieldset,
-body.page-node- main .center-wrapper .panel-col-first form fieldset {
-  width: 49%;
-  float: left;
-  margin-right: 2%; }
-body.page-contact main .center-wrapper .panel-col-first form .webform-component-textarea,
-body.page-node- main .center-wrapper .panel-col-first form .webform-component-textarea {
-  width: 49%;
-  float: right;
-  margin: 5px 0; }
-  body.page-contact main .center-wrapper .panel-col-first form .webform-component-textarea textarea,
-  body.page-node- main .center-wrapper .panel-col-first form .webform-component-textarea textarea {
-    min-height: 180px;
-    resize: none;
-    padding: 15px;
-    outline: none;
-    border: none;
-    border-radius: 2px;
-    background-color: #f2f2f2;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; }
-body.page-contact main .center-wrapper .panel-col-first form .form-actions,
-body.page-node- main .center-wrapper .panel-col-first form .form-actions {
-  float: left;
-  width: 49%;
-  padding: 0; }
-body.page-contact main .center-wrapper .panel-col-first .pane-address-description,
-body.page-node- main .center-wrapper .panel-col-first .pane-address-description {
-  margin-top: 15px; }
-body.page-contact main .center-wrapper .panel-col-first .panel-col-first, body.page-contact main .center-wrapper .panel-col-first .panel-col-last,
-body.page-node- main .center-wrapper .panel-col-first .panel-col-first,
-body.page-node- main .center-wrapper .panel-col-first .panel-col-last {
-  margin-top: 0;
-  padding: 0;
-  width: 49%; }
-  body.page-contact main .center-wrapper .panel-col-first .panel-col-first h3, body.page-contact main .center-wrapper .panel-col-first .panel-col-last h3,
-  body.page-node- main .center-wrapper .panel-col-first .panel-col-first h3,
-  body.page-node- main .center-wrapper .panel-col-first .panel-col-last h3 {
-    margin: 20px 0;
-    color: #006699; }
-  body.page-contact main .center-wrapper .panel-col-first .panel-col-first .field-type-text-long, body.page-contact main .center-wrapper .panel-col-first .panel-col-last .field-type-text-long,
-  body.page-node- main .center-wrapper .panel-col-first .panel-col-first .field-type-text-long,
-  body.page-node- main .center-wrapper .panel-col-first .panel-col-last .field-type-text-long {
-    font-family: "helvetica-light", sans-serif;
-    line-height: 23px; }
-body.page-contact main .center-wrapper .panel-col-first .panel-col-first,
-body.page-node- main .center-wrapper .panel-col-first .panel-col-first {
-  float: left;
-  margin-right: 2%; }
-body.page-contact main .center-wrapper .panel-col-first .panel-col-last,
-body.page-node- main .center-wrapper .panel-col-first .panel-col-last {
+body.page-aktuelles .panel-col-last {
+  width: 32%;
   float: right; }
-body.page-contact main .panel-col-bottom .inside,
-body.page-node- main .panel-col-bottom .inside {
+  body.page-aktuelles .panel-col-last .inside, body.page-aktuelles .panel-col-last .pane-webform {
+    margin: 0; }
+
+body.page-contact .center-wrapper,
+body.page-node- .center-wrapper {
+  margin-top: 0; }
+body.page-contact .panel-col-first,
+body.page-node- .panel-col-first {
+  margin-top: -400px; }
+  body.page-contact .panel-col-first h1.pane-title,
+  body.page-node- .panel-col-first h1.pane-title {
+    padding: 0; }
+  body.page-contact .panel-col-first .webform-component--contact-us-description,
+  body.page-node- .panel-col-first .webform-component--contact-us-description {
+    margin: 5px 0; }
+    body.page-contact .panel-col-first .webform-component--contact-us-description p,
+    body.page-node- .panel-col-first .webform-component--contact-us-description p {
+      line-height: 23px; }
+      body.page-contact .panel-col-first .webform-component--contact-us-description p a,
+      body.page-node- .panel-col-first .webform-component--contact-us-description p a {
+        color: #006699; }
+    body.page-contact .panel-col-first .webform-component--contact-us-description h3,
+    body.page-node- .panel-col-first .webform-component--contact-us-description h3 {
+      margin: 0;
+      color: #006699; }
+  body.page-contact .panel-col-first form fieldset,
+  body.page-node- .panel-col-first form fieldset {
+    width: 49%;
+    float: left;
+    margin-right: 2%; }
+  body.page-contact .panel-col-first form .webform-component-textarea,
+  body.page-node- .panel-col-first form .webform-component-textarea {
+    width: 49%;
+    float: right;
+    margin: 5px 0; }
+    body.page-contact .panel-col-first form .webform-component-textarea textarea,
+    body.page-node- .panel-col-first form .webform-component-textarea textarea {
+      min-height: 180px;
+      resize: none;
+      padding: 15px;
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      background-color: #f2f2f2;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+  body.page-contact .panel-col-first form .form-actions,
+  body.page-node- .panel-col-first form .form-actions {
+    float: left;
+    width: 49%;
+    padding: 0; }
+  body.page-contact .panel-col-first .pane-address-description,
+  body.page-node- .panel-col-first .pane-address-description {
+    margin-top: 15px; }
+  body.page-contact .panel-col-first .panel-col-first, body.page-contact .panel-col-first .panel-col-last,
+  body.page-node- .panel-col-first .panel-col-first,
+  body.page-node- .panel-col-first .panel-col-last {
+    margin-top: 0;
+    padding: 0;
+    width: 49%; }
+    body.page-contact .panel-col-first .panel-col-first h3, body.page-contact .panel-col-first .panel-col-last h3,
+    body.page-node- .panel-col-first .panel-col-first h3,
+    body.page-node- .panel-col-first .panel-col-last h3 {
+      margin: 20px 0;
+      color: #006699; }
+    body.page-contact .panel-col-first .panel-col-first .field-type-text-long, body.page-contact .panel-col-first .panel-col-last .field-type-text-long,
+    body.page-node- .panel-col-first .panel-col-first .field-type-text-long,
+    body.page-node- .panel-col-first .panel-col-last .field-type-text-long {
+      font-family: "helvetica-light", sans-serif;
+      line-height: 23px; }
+  body.page-contact .panel-col-first .panel-col-first,
+  body.page-node- .panel-col-first .panel-col-first {
+    float: left;
+    margin-right: 2%; }
+  body.page-contact .panel-col-first .panel-col-last,
+  body.page-node- .panel-col-first .panel-col-last {
+    float: right; }
+body.page-contact .panel-col-last,
+body.page-node- .panel-col-last {
+  width: 32%;
+  float: right; }
+  body.page-contact .panel-col-last .inside, body.page-contact .panel-col-last .pane-webform,
+  body.page-node- .panel-col-last .inside,
+  body.page-node- .panel-col-last .pane-webform {
+    margin: 0; }
+body.page-contact .panel-col-bottom .inside,
+body.page-node- .panel-col-bottom .inside {
   margin: 0; }
-body.page-contact main .panel-col-bottom .pane-colorized-gmap,
-body.page-node- main .panel-col-bottom .pane-colorized-gmap {
-  padding-bottom: 60px;
-  background: #fff; }
-body.page-contact main .panel-col-bottom h3.pane-title,
-body.page-node- main .panel-col-bottom h3.pane-title {
-  padding: 30px 15px; }
-body.page-contact main .panel-col-bottom .colorized-gmap-common,
-body.page-node- main .panel-col-bottom .colorized-gmap-common {
+  body.page-contact .panel-col-bottom .inside .pane-webform,
+  body.page-node- .panel-col-bottom .inside .pane-webform {
+    margin-top: 0; }
+body.page-contact .panel-col-bottom .colorized-gmap-common,
+body.page-node- .panel-col-bottom .colorized-gmap-common {
   width: 100%;
   height: 640px; }
+body.page-contact .panel-col-bottom .pane-colorized-gmap,
+body.page-node- .panel-col-bottom .pane-colorized-gmap {
+  padding-bottom: 60px;
+  background: #fff; }
 
+body.page-unternehmen .inside .view-content .views-row:not(:nth-child(3n)) {
+  margin-right: 2%; }
+body.page-unternehmen .inside .view-content .views-row {
+  width: 32%;
+  background-color: rgba(0, 102, 153, 0.1);
+  padding: 0;
+  margin: 0 0 15px 0;
+  min-height: 130px; }
+  body.page-unternehmen .inside .view-content .views-row .group-team-member-short {
+    float: left;
+    width: 65%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link {
+      position: absolute;
+      bottom: 15px;
+      max-width: 70%; }
+      body.page-unternehmen .inside .view-content .views-row .group-team-member-short .field-name-node-link a {
+        font-family: "helvetica-medium", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000;
+        width: auto;
+        text-align: left;
+        padding: 0;
+        border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+        background: none;
+        text-transform: none;
+        text-decoration: none; }
+  body.page-unternehmen .inside .view-content .views-row .field-type-image {
+    float: right;
+    width: 35%;
+    padding: 0; }
+    body.page-unternehmen .inside .view-content .views-row .field-type-image img {
+      float: right;
+      display: block; }
 body.page-unternehmen .panel-col-first {
   background-color: transparent;
   padding: 0; }
-  body.page-unternehmen .panel-col-first .pane-bundle-large-text-block {
-    background: #fff;
-    padding: 30px 15px;
-    margin-bottom: 15px; }
-    body.page-unternehmen .panel-col-first .pane-bundle-large-text-block h2 {
-      font-size: 36px;
-      line-height: 40px;
-      padding-bottom: 12px; }
-body.page-unternehmen .pane-content .fieldable-panels-pane h3 {
-  margin: 0;
-  color: #006699; }
-body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-text-long p {
-  line-height: 23px; }
-body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item {
-  position: relative;
-  padding-top: 10px;
-  width: 50%; }
+body.page-unternehmen .pane-fieldable-panels-pane {
+  background: #fff;
+  padding: 30px 15px;
+  margin-bottom: 15px; }
+  body.page-unternehmen .pane-fieldable-panels-pane h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 0 15px 0; }
+  body.page-unternehmen .pane-fieldable-panels-pane h3 {
+    color: #006699;
+    margin: 0; }
+  body.page-unternehmen .pane-fieldable-panels-pane .field-type-text-long p {
+    line-height: 23px; }
+  body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item {
+    position: relative;
+    margin-top: 10px;
+    bottom: 0 !important;
+    width: 50%; }
+  body.page-unternehmen .pane-fieldable-panels-pane .field-name-title-field {
+    display: none; }
 body.page-unternehmen .panel-col-bottom .inside {
   margin: 0; }
 body.page-unternehmen .panel-col-bottom .pane-teams {
@@ -1669,7 +1662,6 @@ body.page-unternehmen .panel-col-bottom .pane-teams {
     body.page-unternehmen .panel-col-bottom .pane-teams .view-header p {
       margin: 15px 0; }
 body.page-unternehmen .panel-col-bottom .pane-publications {
-  padding-bottom: 100px;
   margin-top: 50px; }
   body.page-unternehmen .panel-col-bottom .pane-publications h1 {
     background-color: transparent;
@@ -1698,10 +1690,11 @@ body.page-unternehmen .panel-col-bottom .pane-publications {
         margin-top: 30px;
         padding: 0;
         width: 100%; }
-  body.page-unternehmen .panel-col-bottom .pane-publications .more-link, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .views-row .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-name-node-link, body.page-unternehmen .panel-col-bottom .views-row .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications main .center-wrapper form .form-actions, main .center-wrapper form body.page-unternehmen .panel-col-bottom .pane-publications .form-actions, body.page-unternehmen .panel-col-bottom .pane-publications body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane body.page-unternehmen .panel-col-bottom .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .panel-col-bottom .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link body.page-unternehmen .panel-col-bottom .pane-publications .pane-content {
+  body.page-unternehmen .panel-col-bottom .pane-publications .more-link, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .views-row .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-name-node-link, body.page-unternehmen .panel-col-bottom .views-row .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications main .center-wrapper form .form-actions, main .center-wrapper form body.page-unternehmen .panel-col-bottom .pane-publications .form-actions, body.page-unternehmen .panel-col-bottom .pane-publications body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane body.page-unternehmen .panel-col-bottom .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .panel-col-bottom .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link body.page-unternehmen .panel-col-bottom .pane-publications .pane-content {
+    float: right;
+    position: relative;
+    bottom: 0;
     width: 32%;
-    z-index: 10;
-    right: 0;
     padding: 15px;
     background: #fff;
     -webkit-box-sizing: border-box;
@@ -1835,11 +1828,11 @@ body.page-node- main {
   footer .region-footer {
     max-width: 768px; }
 
-  main .group-slider-info {
+  main .panel-col-top .group-slider-info {
     max-width: 768px;
     margin-left: -384px;
     width: 85%; }
-    main .group-slider-info .field-item {
+    main .panel-col-top .group-slider-info .field-item {
       font-size: 30px;
       line-height: 40px; }
   main .pane-menu-menu-contact-us {
@@ -1847,10 +1840,13 @@ body.page-node- main {
   main .center-wrapper {
     max-width: 768px;
     padding-bottom: 15px; }
-    main .center-wrapper .panel-col-first .more-link, main .center-wrapper .panel-col-first .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-first .field-item, main .center-wrapper .panel-col-first .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-first .field-item, main .center-wrapper .panel-col-first .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-first .field-name-node-link, main .center-wrapper .panel-col-first .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-first .field-name-node-link, main .center-wrapper .panel-col-first form .form-actions, main .center-wrapper form .panel-col-first .form-actions, main .center-wrapper body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles main .center-wrapper .panel-col-first .panel-pane .field-name-node-link, main .center-wrapper .panel-col-first body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-first .field-item, body.page-node- main .center-wrapper .panel-col-first .pane-return-link .pane-content {
-      position: relative;
-      bottom: 0; }
-    main .center-wrapper .panel-col-last .more-link.pane-events, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .pane-events.field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-events.field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .pane-events.field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .pane-events.field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last form .pane-events.form-actions, main .center-wrapper form .panel-col-last .pane-events.form-actions, main .center-wrapper .panel-col-last body.page-aktuelles .panel-col-first .panel-pane .pane-events.field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-col-last .pane-events.field-name-node-link, main .center-wrapper .panel-col-last body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .pane-events.field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .pane-events.field-item, body.page-node- main .center-wrapper .panel-col-last .panel-col-first .pane-return-link .pane-events.pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-col-last .pane-events.pane-content {
+    main .center-wrapper .panel-col-first {
+      width: 100%; }
+      main .center-wrapper .panel-col-first .more-link, main .center-wrapper .panel-col-first .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-first .field-item, main .center-wrapper .panel-col-first .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-first .field-item, main .center-wrapper .panel-col-first .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-first .field-name-node-link, main .center-wrapper .panel-col-first .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-first .field-name-node-link, main .center-wrapper .panel-col-first form .form-actions, main .center-wrapper form .panel-col-first .form-actions, main .center-wrapper body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles main .center-wrapper .panel-col-first .panel-pane .field-name-node-link, main .center-wrapper .panel-col-first body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-first .field-item, body.page-node- main .center-wrapper .panel-col-first .pane-return-link .pane-content {
+        position: relative;
+        margin-top: 25px;
+        bottom: 0; }
+    main .center-wrapper .panel-col-last .more-link, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field main .center-wrapper .panel-col-last .field-item, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .field-item, main .center-wrapper .panel-col-last .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row main .center-wrapper .panel-col-last .field-name-node-link, main .center-wrapper .panel-col-last .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane main .center-wrapper .panel-col-last .field-name-node-link, main .center-wrapper .panel-col-last form .form-actions, main .center-wrapper form .panel-col-last .form-actions, main .center-wrapper .panel-col-last body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane main .center-wrapper .panel-col-last .field-name-node-link, main .center-wrapper .panel-col-last body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field main .center-wrapper .panel-col-last .field-item, body.page-node- main .center-wrapper .panel-col-last .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link .center-wrapper .panel-col-last .pane-content {
       position: relative;
       bottom: 0;
       margin-top: 25px;
@@ -1887,7 +1883,7 @@ body.page-node- main {
     margin-right: 0; }
   body.page-unternehmen .panel-col-bottom .pane-publications .view-content .views-row:not(:nth-child(2n)) {
     margin-right: 2%; }
-  body.page-unternehmen .panel-col-bottom .pane-publications .more-link, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .views-row .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-name-node-link, body.page-unternehmen .panel-col-bottom .views-row .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications main .center-wrapper form .form-actions, main .center-wrapper form body.page-unternehmen .panel-col-bottom .pane-publications .form-actions, body.page-unternehmen .panel-col-bottom .pane-publications body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane body.page-unternehmen .panel-col-bottom .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .panel-col-bottom .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link body.page-unternehmen .panel-col-bottom .pane-publications .pane-content {
+  body.page-unternehmen .panel-col-bottom .pane-publications .more-link, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-type-link-field .field-item, body.page-unternehmen .panel-col-bottom .views-row .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications .views-row .field-name-node-link, body.page-unternehmen .panel-col-bottom .views-row .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-fieldable-panels-pane .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications main .center-wrapper form .form-actions, main .center-wrapper form body.page-unternehmen .panel-col-bottom .pane-publications .form-actions, body.page-unternehmen .panel-col-bottom .pane-publications body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane body.page-unternehmen .panel-col-bottom .pane-publications .field-name-node-link, body.page-unternehmen .panel-col-bottom .pane-publications .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .panel-col-bottom .pane-publications .field-item, body.page-unternehmen .panel-col-bottom .pane-publications body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link body.page-unternehmen .panel-col-bottom .pane-publications .pane-content {
     width: 100%; } }
 @media screen and (max-width: 790px) {
   header {
@@ -1917,36 +1913,36 @@ body.page-node- main {
         top: 25px; }
       header .region-header #block-system-main-menu .content > ul.menu:hover:before, header .region-header #block-system-main-menu .content > ul.menu:hover:after {
         background: #E59900; }
-      header .region-header #block-system-main-menu .content > ul.menu:focus, header .region-header #block-system-main-menu .content > ul.menu:active {
+      header .region-header #block-system-main-menu .content > ul.menu:focus, header .region-header #block-system-main-menu .content > ul.menu:active, header .region-header #block-system-main-menu .content > ul.menu:hover {
         padding-top: 62px;
         width: 100%;
         height: auto; }
-        header .region-header #block-system-main-menu .content > ul.menu:focus:before, header .region-header #block-system-main-menu .content > ul.menu:active:before {
+        header .region-header #block-system-main-menu .content > ul.menu:focus:before, header .region-header #block-system-main-menu .content > ul.menu:active:before, header .region-header #block-system-main-menu .content > ul.menu:hover:before {
           transform: rotate(45deg);
           top: 20px; }
-        header .region-header #block-system-main-menu .content > ul.menu:focus:after, header .region-header #block-system-main-menu .content > ul.menu:active:after {
+        header .region-header #block-system-main-menu .content > ul.menu:focus:after, header .region-header #block-system-main-menu .content > ul.menu:active:after, header .region-header #block-system-main-menu .content > ul.menu:hover:after {
           transform: rotate(-45deg);
           top: 20px; }
-        header .region-header #block-system-main-menu .content > ul.menu:focus > li, header .region-header #block-system-main-menu .content > ul.menu:active > li {
+        header .region-header #block-system-main-menu .content > ul.menu:focus > li, header .region-header #block-system-main-menu .content > ul.menu:active > li, header .region-header #block-system-main-menu .content > ul.menu:hover > li {
           display: block;
           float: none;
           border-top: 1px solid #00527a; }
-          header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu {
+          header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu {
             position: relative;
             top: 0;
             right: 0;
             left: 0;
             padding: 0;
             z-index: 1; }
-            header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .more-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .form-actions, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .pane-content, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .more-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .form-actions, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-content .fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .pane-content {
+            header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .more-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .form-actions, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu .pane-content, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .more-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .form-actions, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu .pane-content, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .more-link, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .panel-col-bottom .views-row .field-type-link-field .field-item, .panel-col-bottom .views-row .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field .field-item, .panel-col-bottom .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .panel-col-bottom .views-row .field-name-node-link, .panel-col-bottom .views-row header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .panel-col-bottom .pane-fieldable-panels-pane .field-name-node-link, .panel-col-bottom .pane-fieldable-panels-pane header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu main .center-wrapper form .form-actions, main .center-wrapper form header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .form-actions, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu body.page-aktuelles .panel-col-first .panel-pane .field-name-node-link, body.page-aktuelles .panel-col-first .panel-pane header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-name-node-link, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field .field-item, body.page-unternehmen .pane-fieldable-panels-pane .field-type-link-field header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .field-item, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu body.page-node- main .panel-col-first .pane-return-link .pane-content, body.page-node- main .panel-col-first .pane-return-link header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu .pane-content {
               bottom: 15px; }
-            header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li {
+            header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu > li {
               width: 100%;
               padding: 0; }
-              header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li > a, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li > a {
+              header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li > a, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li > a, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu > li > a {
                 padding: 15px;
                 border-top: 1px solid #00527a; }
-              header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li > ul.menu {
+              header .region-header #block-system-main-menu .content > ul.menu:focus > li > ul.menu > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:active > li > ul.menu > li > ul.menu, header .region-header #block-system-main-menu .content > ul.menu:hover > li > ul.menu > li > ul.menu {
                 display: none; }
       header .region-header #block-system-main-menu .content > ul.menu > li {
         display: none; }
@@ -1960,9 +1956,9 @@ body.page-node- main {
     margin: 0 15px; }
 
   body .panel-col-top .group-slider-info {
-    max-width: 100%;
     margin: 0 15px;
-    left: 0; }
+    left: 0;
+    bottom: 50px; }
   body .center-wrapper {
     max-width: 100%;
     margin: 0 15px; }
@@ -1990,27 +1986,76 @@ body.page-node- main {
         margin: 20px 0;
         padding: 0; }
 
+  body.page-home .center-wrapper {
+    margin-top: 0; }
+  body.page-home .slick-slider .field-type-image {
+    height: 300px; }
+
+  body:not(.page-home) .header-banner-image {
+    height: 300px; }
   body:not(.page-home) .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
     width: 100%; }
-  body:not(.page-home) .center-wrapper {
+  body:not(.page-home) .panel-col-first {
     margin-top: -150px; }
   body:not(.page-home) .panel-col-bottom .inside {
     margin: 0 15px; }
-  body:not(.page-home) .pane-clients-highlight, body:not(.page-home) body.page-referenzen .panel-col-bottom .inside .pane-clients-highlight, body.page-referenzen .panel-col-bottom .inside body:not(.page-home) .pane-clients-highlight {
+  body:not(.page-home) .pane-clients-highlight, body:not(.page-home) body.page-referenzen .panel-col-bottom .pane-clients-highlight, body.page-referenzen .panel-col-bottom body:not(.page-home) .pane-clients-highlight {
     display: none; }
-  body:not(.page-home) .pane-clients-referenzen {
+
+  body.page-referenzen .center-wrapper {
+    margin-top: -150px; }
+  body.page-referenzen .pane-clients-referenzen {
     width: 100%; }
-    body:not(.page-home) .pane-clients-referenzen .pane-title, body:not(.page-home) .pane-clients-referenzen .view-header, body:not(.page-home) .pane-clients-referenzen .view-filters {
+    body.page-referenzen .pane-clients-referenzen .pane-title, body.page-referenzen .pane-clients-referenzen .view-header, body.page-referenzen .pane-clients-referenzen .view-filters {
       width: 100%; }
-    body:not(.page-home) .pane-clients-referenzen .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item {
+    body.page-referenzen .pane-clients-referenzen .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item {
       width: 100%;
       margin: 0;
       margin-top: 5px; }
-    body:not(.page-home) .pane-clients-referenzen .view-content {
+      body.page-referenzen .pane-clients-referenzen .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label {
+        text-align: left; }
+    body.page-referenzen .pane-clients-referenzen .view-content {
       margin: 0; }
-      body:not(.page-home) .pane-clients-referenzen .view-content .views-row {
+      body.page-referenzen .pane-clients-referenzen .view-content .views-row {
         width: 100%;
         margin: 0;
-        margin-top: 15px; } }
+        margin-top: 15px; }
+        body.page-referenzen .pane-clients-referenzen .view-content .views-row .field-type-text-long {
+          height: auto; }
+
+  body.page-netzwerk .pane-fieldable-panels-pane .field-item h1 {
+    padding-bottom: 0;
+    margin-bottom: 20px; }
+  body.page-netzwerk .pane-fieldable-panels-pane .field-item h3 {
+    padding: 0;
+    margin: 20px 0 5px 0; }
+  body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-name-node-link {
+      display: inline-block;
+      width: auto;
+      position: absolute;
+      bottom: 15px; }
+    body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-type-image {
+      height: auto; }
+      body.page-netzwerk .panel-col-bottom .inside .pane-teams .views-row .field-type-image img {
+        float: none; }
+  body.page-netzwerk .panel-col-bottom .inside .pane-sponsors .views-row {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px; }
+  body.page-netzwerk .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item {
+    width: 100%;
+    margin: 0;
+    margin-top: 5px; }
+    body.page-netzwerk .view-filters .views-exposed-widgets .views-exposed-widget .bef-checkboxes .form-item label {
+      text-align: left; }
+
+  body.page-contact main .panel-col-bottom .inside {
+    margin: 0 15px; }
+  body.page-contact main .colorized-gmap-common {
+    height: 300px; } }
 
 /*# sourceMappingURL=base.css.map */
