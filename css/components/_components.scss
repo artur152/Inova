@@ -60,10 +60,132 @@
   }
 }
 
+.pane-newsletter{
+  @include wrapper;
+  float: none;
+  margin: 15px auto;
+  padding: 15px;
+  background: $white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  .pane-title{
+    color: $black;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  form{
+    @extend .clearfix;
+    p{
+      line-height: 23px;
+    }
+    fieldset{
+      margin: 0;
+      padding: 0;
+      background: none;
+      border: none;
+      .fieldset-wrapper{
+        .form-item{
+          margin: 5px 0;
+        }
+        .webform-component{
+          select, input {
+            font-family:$font-light;
+            font-size: 16px;
+            line-height: 20px;
+            color: $gray-light-a7;
+            height: 42px;
+            width: 100%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 0 15px;
+            border-radius: 2px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+          }
+          select{
+            background: #f2f2f2 url(../images/icon_select.jpg) 100% 0 no-repeat;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+          }
+          input{
+            background: #f2f2f2;
+          }
+        }
+      }
+    }
+    .form-actions{
+      @extend .more-link;
+      position: relative;
+      margin: 0;
+      bottom:0;
+      input.webform-submit{
+        border: none;
+        background-image: url("../images/link-arrow.png");
+        background-repeat:no-repeat;
+        background-position: right 30px top 50%;
+      }
+    }
+  }
+}
+
+.pane-clients-highlight{
+  width: 32.33%;
+  float: right;
+  position: relative;
+  z-index:10;
+  padding: 15px;
+  background-color: $white;
+  -webkit-transform: translateY(60px);
+  -moz-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  -o-transform: translateY(60px);
+  transform: translateY(60px);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  .pane-title{
+    margin: 0;
+    padding:0 0 15px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .views-row {
+    background-color: rgba(0, 102, 153, 0.2);
+    padding: 10px;
+    margin: 0;
+    width:100%;
+    .field-name-title{
+      height: auto;
+      padding-top: 15px;
+    }
+    .field-type-image{
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      max-height: 90px;
+    }
+    .field-name-node-link{
+      a{
+        &:after {
+          content: '\2008\2008\2008';
+          display: inline;
+          background: url("../images/link-arrow.png") no-repeat 100% 3px;
+        }
+      }
+    }
+  }
+}
+
+
 //---  for textarea ---
 .resizable-textarea .grippie {
   display: none;
 }
+
 
 //---  pane-content general ---
 .inside{
@@ -178,61 +300,12 @@
   }
 }
 
-.pane-clients-highlight{
-  width: 32.33%;
-  float: right;
-  position: relative;
-  z-index:10;
-  padding: 15px;
-  background-color: $white;
-  -webkit-transform: translateY(60px);
-  -moz-transform: translateY(60px);
-  -ms-transform: translateY(60px);
-  -o-transform: translateY(60px);
-  transform: translateY(60px);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  .pane-title{
-    margin: 0;
-    padding:0 0 15px;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .views-row {
-    background-color: rgba(0, 102, 153, 0.2);
-    padding: 10px;
-    margin: 0;
-    width:100%;
-    .field-name-title{
-      height: auto;
-      padding-top: 15px;
-    }
-    .field-type-image{
-      height: auto;
-      padding-top: 20px;
-      padding-bottom: 5px;
-      max-height: 90px;
-    }
-    .field-name-node-link{
-      a{
-        &:after {
-          content: '\2008\2008\2008';
-          display: inline;
-          background: url("../images/link-arrow.png") no-repeat 100% 3px;
-        }
-      }
-    }
-  }
-}
-
 
 //--- company items ---
 .panel-col-bottom{
   .view-content{
     margin: 0 -0.5% 0;
   }
-
   .views-row, .pane-fieldable-panels-pane {
     position: relative;
     float: left;
@@ -293,79 +366,6 @@
     }
   }
 }
-
-//--- newsletter items ---
-main .center-wrapper{
-  .pane-newsletter{
-    margin-top: 15px;
-    padding: 15px;
-    background: $white;
-    .pane-title{
-      color: $black;
-      padding: 0;
-      margin-bottom: 0;
-    }
-  }
-  form{
-    @extend .clearfix;
-    p{
-      line-height: 23px;
-    }
-    fieldset{
-      margin: 0;
-      padding: 0;
-      background: none;
-      border: none;
-      .fieldset-wrapper{
-        .form-item, .form-actions {
-          margin: 5px 0;
-        }
-        .webform-component{
-          select, input {
-            font-family:$font-light;
-            font-size: 16px;
-            line-height: 20px;
-            color: $gray-light-a7;
-            height: 42px;
-            width: 100%;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 0 15px;
-            border-radius: 2px;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-          }
-          select{
-            background: #f2f2f2 url(../images/icon_select.jpg) 100% 0 no-repeat;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-          }
-          input{
-            background: #f2f2f2;
-          }
-        }
-      }
-    }
-    .form-actions{
-      @extend .more-link;
-      position: relative;
-      margin: 0;
-      bottom:0;
-      input.webform-submit{
-        border: none;
-        background-image: url("../images/link-arrow.png");
-        background-repeat:no-repeat;
-        background-position: right 30px top 50%;
-      }
-    }
-  }
-}
-
-
-
 
 
 

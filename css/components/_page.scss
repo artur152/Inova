@@ -10,7 +10,9 @@
 .breadcrumb, .page-title{
   display: none;
 }
-
+.tabs{
+  //margin-top: 50px;
+}
 
 /* Body
 -------------------------------------------------------------- */
@@ -95,17 +97,20 @@ header{
               background: $blue-border;
             }
             &:hover{
-              background: $blue-border;
-              a{
+              &>a{
+                background: $blue-border;
                 color: $orange;
               }
             }
             &>.active-trail{
-              background: $blue-border;
-              color: $orange;
               a.active{
+                background: $blue-border;
                 color: $orange;
               }
+            }
+            &>a.active{
+              background: $blue-border;
+              color: $orange;
             }
             &>a{
               position: relative;
@@ -284,7 +289,6 @@ header{
         }
       }
     }
-
     .block-lang-switcher{
         position: absolute;
         right: 100px;
@@ -376,13 +380,10 @@ footer{
   }
 }
 
-
-body{
-  .page-wrap{
-    position: relative;
-    padding-bottom: 225px;
-    min-height: 100%;
-  }
+.page-wrap{
+  position: relative;
+  padding-bottom: 225px;
+  min-height: 100%;
   .header-banner-image {
     height: 630px;
     overflow: hidden;
@@ -410,7 +411,7 @@ body{
       .field-collection-view,
       .field-collection-container,
       .field-collection-container .field-item {
-        margin-bottom: 0;
+        margin: 0;
         padding: 0;
         border:none;
       }
@@ -431,21 +432,22 @@ body{
       width:66%;
       .inside{
         margin: 0;
+        h3{
+          margin: 0;
+        }
       }
     }
     .panel-col-last{
-      margin-top: 15px;
       float: right;
       width: 32%;
       .inside{
         margin: 0;
       }
       .more-link{
-        width: calc(32.33% - 15px);
+        margin-top: 15px;
       }
     }
   }
-
   .panel-col-top {
     .slick{
       .slick-initialized .slick-slide{
@@ -539,11 +541,8 @@ body{
     }
   }
   .panel-panel{
-    .contextual-links-region{
-      position: inherit;
-    }
     .pane-webform{
-      margin-top: 50px;
+      margin-top: 15px;
       fieldset.webform-component--registration {
         width:100%;
         margin: 0;
@@ -585,8 +584,6 @@ body{
       font-size: 24px;
       line-height: 28px;
       color: $link-active;
-      padding: 0;
-      padding-bottom: 15px;
       a{
         border-bottom:none;
       }
@@ -688,11 +685,38 @@ body{
   }
 }
 
-//--------------- Page Home --------------------
-body.page-home{
-  .center-wrapper{
-    margin-top: -130px;
 
+//--------------- Page Home --------------------
+.page-home{
+  .page-wrap{
+    .center-wrapper{
+      margin-top: -130px;
+      .panel-col-first, .panel-col-last{
+        h2.pane-title{
+          padding-left: 0;
+        }
+      }
+      .panel-col-last{
+        .contextual-links-region{
+          position: inherit;
+        }
+        .more-link{
+          width: calc(32.33% - 15px);
+        }
+      }
+    }
+    .panel-col-bottom{
+      .inside{
+        margin: 0 -.5%;
+      }
+    }
+    .pane-newsletter{
+      form{
+        .form-actions{
+          bottom: 0;
+        }
+      }
+    }
   }
 }
 
@@ -965,7 +989,6 @@ body.page-netzwerk {
     .inside{
       margin: 0;
       .pane-teams {
-        margin: 10px 0;
         padding: 15px 15px 30px;
         background-color: $white;
         -webkit-box-sizing: border-box;
@@ -1081,38 +1104,44 @@ body.page-netzwerk {
 
 //---------------  Latest News Page ---------------
 body.page-aktuelles {
-  .center-wrapper{
+  .center-wrapper {
     margin-top: 0;
-  }
-  .panel-col-first{
-    margin-top: -400px;
-    padding: 0;
-    background: none;
-    .panel-pane{
-      background: $white;
-      padding: 30px 15px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      h3{
-        padding: 0 0 20px 0;
-        color: $link-active;
-      }
-      .field-name-node-link{
-        width:50%;
-        @extend .more-link;
-        position: relative;
-      }
-      &:not(:last-child){
-        margin-bottom: 15px;
+    .panel-col-first{
+      margin-top: -400px;
+      padding: 0;
+      background: none;
+      .panel-pane{
+        background: $white;
+        padding: 30px 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        h3{
+          padding: 0 0 20px 0;
+          color: $link-active;
+        }
+        .field-name-node-link{
+          width:50%;
+          @extend .more-link;
+          position: relative;
+        }
+        &:not(:last-child){
+          margin-bottom: 15px;
+        }
       }
     }
-  }
-  .panel-col-last{
-    width:32%;
-    float: right;
-    .inside, .pane-webform{
-      margin: 0;
+    .panel-col-last{
+      margin-top: 0;
+      width:32%;
+      float: right;
+      .inside, .pane-webform{
+        margin: 0;
+      }
+      form{
+        .form-actions{
+          margin-top: 0;
+        }
+      }
     }
   }
 }
