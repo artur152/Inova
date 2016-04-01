@@ -631,9 +631,6 @@ footer{
         bottom: 15px;
       }
     }
-    .more-link{
-      bottom: 15px;
-    }
   }
   .panel-col-bottom{
     @include wrapper;
@@ -740,7 +737,12 @@ body:not(.page-home) {
       margin: 0;
     }
   }
-
+  .panel-col-last{
+    .inside{
+      padding: 15px;
+      background: $white;
+    }
+  }
   .pane-fieldable-panels-pane{
     .field-item{
       h1{
@@ -767,7 +769,7 @@ body:not(.page-home) {
       position: relative;
       li:not(.supply-chain-management){
         margin-top: 15px;
-        width:66%;
+        width:49%;
         a{
           background-color: #A9CBDD;
           &:after{
@@ -802,7 +804,7 @@ body:not(.page-home) {
         position: absolute;
         top:150px;
         right: 0;
-        width:32%;
+        width:49%;
         height: calc(100% - 165px);
         &:after{
           @extend .transition;
@@ -897,6 +899,7 @@ body:not(.page-home) {
           min-height: 150px;
           text-decoration: underline;
           text-transform: uppercase;
+          word-wrap: break-word;
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -927,6 +930,7 @@ body:not(.page-home) {
       padding: 0;
       margin: 0;
       background: none;
+      z-index:1;
       .field-type-text-long {
         height: 100%;
         padding: 0;
@@ -949,12 +953,33 @@ body:not(.page-home) {
 
 
 //---------------  References Page ---------------
-body.page-referenzen{
-  .panel-col-first{
-    display: none;
+.page-referenzen{
+  .center-wrapper{
+    .panel-col-first{
+      padding: 0;
+    }
+    .panel-col-last{
+      .inside{
+        padding: 0;
+      }
+      .pane-clients-highlight{
+        margin-top: 0;
+      }
+    }
   }
   .panel-col-bottom{
-    @extend .clearfix;
+         @extend .clearfix;
+         .inside{
+           h2{
+             margin: 0;
+             padding: 30px 15px 15px;
+             background: $white;
+             width:66%;
+             -webkit-box-sizing: border-box;
+             -moz-box-sizing: border-box;
+             box-sizing: border-box;
+           }
+         }
     .pane-clients-highlight{
       @extend .pane-clients-highlight;
     }
@@ -969,19 +994,25 @@ body.page-referenzen{
   }
 }
 
-
 //---------------  Network Page ---------------
-body.page-netzwerk {
-  .panel-col-first{
-    .field-item{
-      h3{
-        color: $link-active;
-        margin: 0;
-        padding-top: 20px;
-        padding-bottom: 5px;
+.page-netzwerk {
+  .center-wrapper{
+    .panel-col-first{
+      .field-item{
+        h3{
+          color: $link-active;
+          margin: 0;
+          padding-top: 20px;
+          padding-bottom: 5px;
+        }
+        p{
+          margin: 0;
+        }
       }
-      p{
-        margin: 0;
+    }
+    .panel-col-last{
+      .inside{
+        padding: 0;
       }
     }
   }
@@ -1008,20 +1039,6 @@ body.page-netzwerk {
         .view-content {
           margin: 0;
           @extend .clearfix;
-        }
-        .views-row:not(:nth-child(3n)) {
-          margin-right: 2%;
-        }
-        .views-row {
-          position: relative;
-          width: 32%;
-          background-color: rgba(0, 102, 153, 0.1);
-          padding: 0;
-          margin: 0 0 15px 0;
-          min-height: 130px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
         }
         .views-row{
           .field-name-title{
@@ -1103,11 +1120,11 @@ body.page-netzwerk {
 }
 
 //---------------  Latest News Page ---------------
-body.page-aktuelles {
+.page-aktuelles {
   .center-wrapper {
     margin-top: 0;
     .panel-col-first{
-      margin-top: -400px;
+      margin-top: 0;
       padding: 0;
       background: none;
       .panel-pane{
@@ -1147,98 +1164,89 @@ body.page-aktuelles {
 }
 
 //---------------  Contact Page ---------------
-body.page-contact,
-body.page-node- {
+.page-contact {
+  .page-wrap{
     .center-wrapper{
-      margin-top: 0;
-    }
-    .panel-col-first{
-      margin-top: -400px;
-      h1.pane-title{
-        padding: 0;
-      }
-      .webform-component--contact-us-description{
-        margin:5px 0;
-        p{
-          line-height: 23px;
-          a{
+      .panel-col-first{
+        .pane-webform{
+          margin-top: 0;
+          padding: 0;
+        }
+        h1.pane-title{
+          padding: 0;
+        }
+        .webform-component--contact-us-description{
+          margin: 5px 0;
+          p{
+            line-height: 23px;
+            a{
+              color: $link-active;
+            }
+          }
+          h3{
+            margin: 0;
             color: $link-active;
           }
         }
-        h3{
-          margin: 0;
-          color: $link-active;
-        }
-      }
-      form{
-        fieldset{
-          width:49%;
-          float: left;
-          margin-right: 2%;
-        }
-        .webform-component-textarea{
-          width:49%;
-          float: right;
-          margin: 5px 0;
-          textarea{
-            min-height: 180px;
-            resize: none;
-            padding: 15px;
-            outline: none;
-            border: none;
-            border-radius: 2px;
-            background-color: #f2f2f2;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
+        form.webform-client-form{
+          fieldset{
+            width:49%;
+            float: left;
+            margin-right: 2%;
+          }
+          .webform-component-textarea{
+            width:49%;
+            float: right;
+            margin: 5px 0;
+            textarea{
+              min-height: 180px;
+              resize: none;
+              padding: 15px;
+              outline: none;
+              border: none;
+              border-radius: 2px;
+              background-color: #f2f2f2;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
+            }
+          }
+          .form-actions{
+            float: left;
+            width:49%;
+            bottom: 0;
           }
         }
-        .form-actions{
-          float: left;
-          width:49%;
+        .pane-address-description{
+          @extend .clearfix;
+          margin-top: 15px;
+        }
+        .panel-col-first, .panel-col-last{
+          margin-top: 0;
+          padding:0;
+          width: 49%;
+          h3{
+            margin: 20px 0;
+            color: $link-active;
+          }
+          .field-type-text-long{
+            font-family: $font-light;
+            line-height: 23px;
+          }
+        }
+      }
+      .panel-col-last{
+        width:32%;
+        float: right;
+        .inside, .pane-webform{
+          margin: 0;
+        }
+        .inside{
           padding: 0;
         }
       }
-      .pane-address-description{
-        @extend .clearfix;
-        margin-top: 15px;
-      }
-      .panel-col-first, .panel-col-last{
-        margin-top: 0;
-        padding:0;
-        width: 49%;
-        h3{
-          margin: 20px 0;
-          color: $link-active;
-        }
-        .field-type-text-long{
-          font-family: $font-light;
-          line-height: 23px;
-        }
-      }
-      .panel-col-first {
-        float: left;
-        margin-right: 2%;
-      }
-      .panel-col-last{
-        float: right;
-      }
     }
-    .panel-col-last{
-      width:32%;
-      float: right;
-      .inside, .pane-webform{
-        margin: 0;
-      }
-    }
-
     .panel-col-bottom{
-      .inside{
-        margin: 0;
-        .pane-webform{
-          margin-top: 0;
-        }
-      }
       .colorized-gmap-common{
         width: 100%;
         height: 640px;
@@ -1248,94 +1256,52 @@ body.page-node- {
         background: $white;
       }
     }
+  }
 }
 
 //---------------  About Us Page ---------------
-body.page-unternehmen {
-  .inside{
-    .view-content {
-      @extend .clearfix;
-      .views-row:not(:nth-child(3n)) {
-        margin-right: 2%;
-      }
-      .views-row {
-        width: 32%;
-        background-color: rgba(0, 102, 153, 0.1);
+.page-unternehmen {
+  .center-wrapper{
+    .panel-col-first{
+      background-color: transparent;
+      padding: 0;
+    }
+    .panel-col-last{
+      .inside{
         padding: 0;
-        margin: 0 0 15px 0;
-        min-height: 130px;
-        .group-team-member-short {
-          float: left;
-          width: 65%;
-          padding: 15px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          .field-name-node-link {
-            position: absolute;
-            bottom: 15px;
-            max-width: 70%;
-            a {
-              font-family: $font-regular;
-              font-size: 16px;
-              line-height: 20px;
-              color: $black;
-              width: auto;
-              text-align: left;
-              padding: 0;
-              border-bottom: 1px solid rgba(0, 102, 153, 0.3);
-              background: none;
-              text-transform: none;
-              text-decoration: none;
-            }
-          }
-        }
-        .field-type-image{
-          float: right;
-          width: 35%;
-          padding: 0;
-          img {
-            float: right;
-            display: block;
-          }
+      }
+    }
+    .pane-fieldable-panels-pane {
+      background: $white;
+      padding:30px 15px;
+      margin-bottom: 15px;
+      h2{
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0;
+        padding: 0 0 15px 0;
+      }
+      h3{
+        color: $link-active;
+        margin: 0;
+      }
+      .field-type-text-long{
+        p{
+          line-height: 23px;
         }
       }
-    }
-  }
-  .panel-col-first{
-    background-color: transparent;
-    padding: 0;
-  }
-  .pane-fieldable-panels-pane {
-    background: $white;
-    padding:30px 15px;
-    margin-bottom: 15px;
-    h2{
-      font-size: 36px;
-      line-height: 40px;
-      margin: 0;
-      padding: 0 0 15px 0;
-    }
-    h3{
-      color: $link-active;
-      margin: 0;
-    }
-    .field-type-text-long{
-      p{
-        line-height: 23px;
+      .field-type-link-field{
+        .field-item{
+          @extend .more-link;
+          position: relative;
+          margin-top: 10px;
+          bottom: 0!important;
+          width: 50%;
+        }
       }
-    }
-    .field-type-link-field{
-      .field-item{
-        @extend .more-link;
-        position: relative;
-        margin-top: 10px;
-        bottom: 0!important;
-        width: 50%;
+      .field-name-title-field {
+        display: none;
       }
-    }
-    .field-name-title-field {
-      display: none;
     }
   }
   .panel-col-bottom{
@@ -1362,6 +1328,54 @@ body.page-unternehmen {
           margin: 15px 0;
         }
       }
+      .view-content {
+        margin: 0;
+        @extend .clearfix;
+        .views-row:not(:nth-child(3n)) {
+          margin-right: 2%;
+        }
+        .views-row {
+          width: 32%;
+          background-color: rgba(0, 102, 153, 0.1);
+          padding: 0;
+          margin: 0 0 15px 0;
+          min-height: 130px;
+          .group-team-member-short {
+            float: left;
+            width: 65%;
+            padding: 15px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            .field-name-node-link {
+              position: absolute;
+              bottom: 0;
+              a {
+                font-family: $font-regular;
+                font-size: 16px;
+                line-height: 20px;
+                color: $black;
+                width: auto;
+                text-align: left;
+                padding: 0;
+                border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+                background: none;
+                text-transform: none;
+                text-decoration: none;
+              }
+            }
+          }
+          .field-type-image{
+            float: right;
+            width: 35%;
+            padding: 0;
+            img {
+              float: right;
+              display: block;
+            }
+          }
+        }
+      }
     }
     .pane-publications{
       margin-top: 50px;
@@ -1376,11 +1390,6 @@ body.page-unternehmen {
         }
       }
       .view-content{
-        margin: 0;
-
-        .views-row:not(:nth-child(3n)) {
-          margin-right: 2%;
-        }
         .views-row {
           background: $white;
           padding: 15px;
@@ -1399,15 +1408,17 @@ body.page-unternehmen {
           .field-name-node-link{
             margin-top: 30px;
             padding: 0;
+            top: 0;
             width: 100%;
           }
         }
       }
       .more-link{
+        top: 15px;
         float: right;
         position: relative;
         bottom: 0;
-        width: 32%;
+        width: 32.33%;
         padding: 15px;
         background: $white;
         -webkit-box-sizing: border-box;
@@ -1448,108 +1459,114 @@ body.page-unternehmen {
 }
 
 
-//---------------  supply-chain-management Page ---------------
-body.page-node- {
+//---------------  Node Pages ---------------
+.page-node {
   .region-header {
     .content {
       background: $gray-light-bg;
       height: 72px;
     }
   }
-  main {
-    padding-top: 130px;
-    .tabs{
-      display: none;
-    }
-    .panel-col-first{
-      margin: 0;
-      padding: 0;
-      .pane-return-link {
-        padding: 15px;
-        .pane-content{
-          @extend .more-link;
-          position: relative;
-          width: 50%;
-        }
-      }
-      .pane-node-content, .pane-careers-title {
-        padding: 15px;
-        h1{
-          margin: 0;
-          padding: 15px 0;
-        }
-        h3{
-          color: $link-active ;
-          margin: 0;
-        }
-        ul{
-          margin-top: 20px;
-          li{
-            position: relative;
-            font-family:$font-light;
-            padding-left: 10px;
-            padding-bottom: 12px;
-            &:before{
-              content: '';
-              position: absolute;
-              left: 0;
-              top: 8px;
-              width: 4px;
-              height: 4px;
-              background: $link-active;
-              border-radius:50%;
-            }
-          }
-        }
-      }
-    }
-    .panel-col-last{
-      .pane-contacts {
-        padding: 15px;
+  .page-wrap {
+    .center-wrapper{
+      margin-top: 0;
+      .panel-col-first{
         margin-top: 150px;
-        background: $white;
-        h4 {
-          color:$orange;
-          padding: 10px 0 60px;
+        padding: 0;
+        background: none;
+        .panel-pane{
+          background: $white;
+          margin-bottom: 15px;
         }
-        .views-row{
-          padding: 0;
-          &:not(:first-child){
-            padding-top: 45px;
+        .pane-return-link {
+          padding: 15px;
+          .pane-content{
+            @extend .more-link;
+            position: relative;
+            width: 50%;
           }
-          .group-team-member-teaser-info{
-            float: left;
-            width: 65%;
-            padding-right: 10px;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            h3{
-              color: $link-active;
-              margin: 0;
-            }
-            a{
-              color: $black;
-              border-bottom: 1px solid rgba(0,102,153,0.3);
-              &:hover{
-                border-bottom:none;
+        }
+        .pane-node-content, .pane-careers-title {
+          padding: 15px;
+          h1{
+            margin: 0;
+            padding: 15px 0;
+          }
+          h3{
+            color: $link-active ;
+            margin: 0;
+          }
+          ul{
+            margin-top: 20px;
+            li{
+              position: relative;
+              font-family:$font-light;
+              padding-left: 10px;
+              padding-bottom: 12px;
+              &:before{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 8px;
+                width: 4px;
+                height: 4px;
+                background: $link-active;
+                border-radius:50%;
               }
             }
           }
-          .field-name-field-team-member-phone {
-            padding-top: 10px;
+        }
+      }
+      .panel-col-last{
+        margin-top: 150px;
+        .inside{
+          padding: 0;
+        }
+        .pane-contacts {
+          padding: 15px;
+          background: $white;
+          h4 {
+            color:$orange;
+            padding: 10px 0 60px;
           }
-          .field-name-field-team-member-email {
-            padding: 30px 0 5px;
-          }
-          .field-name-field-team-member-photo{
-            float: right;
-            width: 35%;
+          .views-row{
+            padding: 0;
+            &:not(:first-child){
+              padding-top: 45px;
+            }
+            .group-team-member-teaser-info{
+              float: left;
+              width: 65%;
+              padding-right: 10px;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              h3{
+                color: $link-active;
+                margin: 0;
+              }
+              a{
+                color: $black;
+                border-bottom: 1px solid rgba(0,102,153,0.3);
+                &:hover{
+                  border-bottom:none;
+                }
+              }
+            }
+            .field-name-field-team-member-phone {
+              padding-top: 10px;
+            }
+            .field-name-field-team-member-email {
+              padding: 30px 0 5px;
+            }
+            .field-name-field-team-member-photo{
+              float: right;
+              width: 35%;
+            }
           }
         }
       }
     }
-
     .panel-col-bottom{
       .inside {
         margin: 0;
@@ -1576,11 +1593,40 @@ body.page-node- {
         }
       }
     }
-
+    .tabs{
+      display: none;
+    }
   }
 }
 
 
+//--------------- Publications About Us Page ---------------
+
+.page-unternehmen-publications {
+    main{
+      &>.content{
+        @include wrapper;
+        padding-top: 150px;
+        h1.pane-title {
+          margin: 0;
+          padding: 30px 15px 15px;
+          background: $white;
+        }
+        .view-content{
+          @extend .clearfix;
+          margin-bottom: 15px;
+          .views-row{
+            .field-name-title{
+              height: 60px;
+            }
+            .field-name-node-link{
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+}
 
 
 

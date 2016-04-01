@@ -74,7 +74,7 @@
     padding: 0;
     margin-bottom: 0;
   }
-  form{
+  form.webform-client-form {
     @extend .clearfix;
     p{
       line-height: 23px;
@@ -133,17 +133,12 @@
 }
 
 .pane-clients-highlight{
-  width: 32.33%;
+  width: 100%;
   float: right;
   position: relative;
   z-index:10;
   padding: 15px;
   background-color: $white;
-  -webkit-transform: translateY(60px);
-  -moz-transform: translateY(60px);
-  -ms-transform: translateY(60px);
-  -o-transform: translateY(60px);
-  transform: translateY(60px);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -157,7 +152,6 @@
     background-color: rgba(0, 102, 153, 0.2);
     padding: 10px;
     margin: 0;
-    width:100%;
     .field-name-title{
       height: auto;
       padding-top: 15px;
@@ -169,6 +163,8 @@
       max-height: 90px;
     }
     .field-name-node-link{
+      @extend .more-link;
+      position: relative;
       a{
         &:after {
           content: '\2008\2008\2008';
@@ -187,8 +183,8 @@
 }
 
 
-//---  pane-content general ---
-.inside{
+//---  views-exposed-widget  ---
+.pane-content{
   .pane-title,
   .view-header,
   .view-filters{
@@ -229,9 +225,7 @@
       background: url(../images/triangle.png) no-repeat 0 0;
       background-size: 100% auto;
     }
-    .views-exposed-widgets{
-      margin: 0;
-      .views-exposed-widget{
+    .views-exposed-widget{
         float: none;
         padding: 0;
         label{
@@ -243,8 +237,10 @@
         .views-widget{
           @extend .clearfix;
           text-align: right;
-          padding-top: 10px;
-          margin-bottom: 8px;
+          margin: 10px 0;
+          label{
+            color: $white!important;
+          }
         }
         .bef-checkboxes{
           width: 100%;
@@ -292,17 +288,12 @@
           margin-top: 10px;
         }
       }
-    }
-  }
-  .view-content{
-    @extend .clearfix;
-    clear: both;
   }
 }
 
 
-//--- company items ---
-.panel-col-bottom{
+//--- items ---
+//.panel-col-bottom{
   .view-content{
     margin: 0 -0.5% 0;
   }
@@ -365,7 +356,58 @@
       text-align: center;
     }
   }
-}
+
+  .pane-teams{
+    .view-content {
+      margin: 0;
+      @extend .clearfix;
+    }
+    .views-row:not(:nth-child(3n)) {
+      margin-right: 2%;
+    }
+    .views-row {
+      width: 32%;
+      background-color: rgba(0, 102, 153, 0.1);
+      padding: 0;
+      margin: 0 0 15px 0;
+      min-height: 130px;
+      .group-team-member-short {
+        float: left;
+        width: 65%;
+        padding: 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        .field-name-node-link {
+          position: absolute;
+          bottom: 0;
+          a {
+            font-family: $font-regular;
+            font-size: 16px;
+            line-height: 20px;
+            color: $black;
+            width: auto;
+            text-align: left;
+            padding: 0;
+            border-bottom: 1px solid rgba(0, 102, 153, 0.3);
+            background: none;
+            text-transform: none;
+            text-decoration: none;
+          }
+        }
+      }
+      .field-type-image{
+        float: right;
+        width: 35%;
+        padding: 0;
+        img {
+          float: right;
+          display: block;
+        }
+      }
+    }
+  }
+//}
 
 
 

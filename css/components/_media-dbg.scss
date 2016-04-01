@@ -23,12 +23,12 @@
       max-width: $page-width;
     }
   }
-  main{
+  .page-wrap{
     .panel-col-top{
       .group-slider-info{
         max-width: $page-width;
         margin-left: -$page-width*0.5;
-        width: 85%;
+        width: 80%;
         .field-item{
           font-size: 30px;
           line-height: 40px;
@@ -50,26 +50,33 @@
         } 
       }
       .panel-col-last{
+        width: 100%;
         .more-link{
           position: relative;
           bottom: 0;
           margin-top: 15px;
-          width: 100%;
         }
       }
     }
     .panel-col-bottom{
       max-width: $page-width;
+      .inside{
+        .pane-teams .views-row{
+          min-height: inherit;
+        }
+      }
     }
   }
 
 
 //--------------- Page Home --------------------
-  body.page-home{
-    .center-wrapper{
-      .panel-col-last{
-        .more-link{
-          width: 100%;
+  .page-home{
+    .page-wrap{
+      .center-wrapper{
+        .panel-col-last{
+          .more-link{
+            width: 100%;
+          }
         }
       }
     }
@@ -99,7 +106,7 @@
 
 
 //---------------  Latest News Page ---------------
-  body.page-aktuelles{
+  .page-aktuelles{
     .center-wrapper {
       .panel-col-first{
         .panel-pane .field-name-node-link{
@@ -120,7 +127,7 @@
 
 
 //---------------  Contact Page ---------------
-  body.page-contact{
+  .page-contact{
     .center-wrapper {
       .panel-col-first, .panel-col-last{
         form .form-actions{
@@ -139,20 +146,13 @@
 
 
 //---------------  About Us Page ---------------
-  body.page-unternehmen{
-    .inside .view-content{
-      .views-row{
-        width:49%;
-      }
-      .views-row:not(:nth-child(3n)) {
-        margin-right: 0;
-      }
-      .views-row:not(:nth-child(2n)) {
-        margin-right: 2%;
-      }
-    }
-    .panel-col-bottom .pane-publications{
-      .view-content{
+  .page-unternehmen{
+    .panel-col-bottom{
+      .inside .view-content{
+        .views-row{
+          width:49%;
+          min-height: 130px;
+        }
         .views-row:not(:nth-child(3n)) {
           margin-right: 0;
         }
@@ -160,8 +160,28 @@
           margin-right: 2%;
         }
       }
-      .more-link{
-        width:100%;
+      .pane-publications{
+        .view-content{
+          .views-row{
+            margin: 0;
+            margin-top: 15px;
+          }
+          .views-row:not(:nth-child(3n)) {
+            margin-right: 0;
+          }
+          .views-row:not(:nth-child(2n)) {
+            margin-right: 2%;
+          }
+        }
+        .more-link{
+          width:100%;
+        }
+      }
+      .pane-job-offers{
+        .views-row{
+          margin: 0;
+          margin-top: 15px;
+        }
       }
     }
   }
@@ -174,19 +194,22 @@
     max-width: 100%;
     margin: 0;
     transform: translateX(-50%);
-
+    .logo {
+      transform: rotate(90deg);
+      right: 56px;
+      top: -26px;
+    }
     .region-header{
       .block-lang-switcher {
-        right: 60px;
+        right: 147px;
       }
       #block-system-main-menu {
         .content{
           &> ul.menu{
-            left: 15px;
             height: 42px;
             width: 60px;
             cursor: pointer;
-            max-width: 690px;
+            left: 15px;
 
             &:before, &:after{
               content: "";
@@ -214,6 +237,7 @@
               padding-top: 62px;
               width: 100%;
               height: auto;
+              left: 0;
               &:before{
                 transform: rotate(45deg);
                 top: 20px;
@@ -265,14 +289,12 @@
       }
     }
   }
-
   footer {
     .region-footer {
       max-width: 100%;
       margin:0 15px;
     }
   }
-
   body{
     .panel-col-top{
       .group-slider-info{
@@ -282,7 +304,6 @@
 
       }
     }
-
     .center-wrapper{
       margin-left: 15px;
       margin-right: 15px;
@@ -317,7 +338,6 @@
         }
       }
     }
-
     .panel-col-bottom {
       .inside{
         margin: 0 15px;
@@ -339,60 +359,94 @@
 
 
 //--------------- Page Home --------------------
-  body.page-home{
-    .center-wrapper{
-      margin-top: 0;
-      .panel-col-last{
-        width: 100%;
+  .page-home{
+    .page-wrap{
+      .panel-col-top{
+        .group-slider-info{
+          padding: 10px;
+          left: 15px;
+          margin-left: 0;
+          bottom: 15px;
+          .field-item{
+            font-size: 16px;
+            line-height: 20px;
+          }
+          .field-type-link-field a{
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+        .slick-dots{
+          right: 15px;
+        }
       }
-    }
-    .slick-slider{
+      .center-wrapper{
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        .panel-col-last{
+          width: 100%;
+        }
+      }
+      .panel-col-bottom{
+        .inside{
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+      }
+      .slick-slider{
       .field-type-image{
         height: 300px;
       }
+    }
     }
   }
 
 
 //---------------  Competencies Page ---------------
   body:not(.page-home){
-    .center-wrapper{
-      margin-top: 0;
-    }
-    .header-banner-image{
-      height: 300px;
-    }
-    .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
-      width: 100%;
-    }
-    .panel-col-first{
-      margin-top: -150px;
-      padding: 15px;
-    }
+    .page-wrap{
 
-    .panel-col-bottom{
-      .inside{
-        margin: 0 15px;
-        .pane-bundle-text-block {
-          h1{
-            padding-top: 0;
+      .center-wrapper{
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .header-banner-image{
+        height: 300px;
+      }
+      .panel-col-bottom .pane-bundle-text-block .field-item h1 + p {
+        width: 100%;
+      }
+      .panel-col-first{
+        padding: 15px;
+        margin-top: -150px;
+      }
+      .panel-col-bottom{
+        .inside{
+          margin: 0 15px;
+          .pane-bundle-text-block {
+            h1{
+              padding-top: 0;
+            }
           }
-        }
-        .pane-fieldable-panels-pane{
-          .field-type-text-long{
-            margin: 0;
+          .pane-fieldable-panels-pane{
+            .field-type-text-long{
+              margin: 0;
+            }
           }
         }
       }
-    }
-    .pane-clients-highlight{
-      display: none;
+      .pane-clients-highlight{
+        display: none;
+      }
+
     }
   }
 
 
 //---------------  References Page ---------------
-  body.page-referenzen{
+  .page-referenzen{
     .center-wrapper{
       margin-top: -150px;
     }
@@ -430,7 +484,7 @@
 
 
 //---------------  Network Page ---------------
-  body.page-netzwerk {
+  .page-netzwerk {
     .center-wrapper{
       .panel-col-last{
         margin: 0;
@@ -486,10 +540,11 @@
 
 
 //---------------  Latest News Page ---------------
-  body.page-aktuelles {
-    main{
+  .page-aktuelles {
+    .page-wrap{
       .center-wrapper{
         .panel-col-first{
+          padding: 0;
           .panel-pane{
             padding: 15px;
             .field-name-node-link{
@@ -507,8 +562,35 @@
   }
 
 //---------------  Contact Page ---------------
-  body.page-contact{
-    main{
+  .page-contact{
+    .page-wrap{
+      .center-wrapper {
+        .panel-col-first {
+          width:100%;
+          .pane-newsletter form.webform-client-form{
+            fieldset{
+              width:100%;
+              float: none;
+              margin-right: 0;
+            }
+            .webform-component-textarea{
+              width: 100%;
+              float: none;
+            }
+            .form-actions{
+              width: 100%;
+              float: none;
+              margin-top: 0;
+            }
+          }
+        }
+        .panel-col-last{
+          width:100%;
+          h2{
+            padding-left: 0;
+          }
+        }
+      }
       .panel-col-bottom{
         .inside{
           margin:0 15px;
@@ -522,28 +604,32 @@
 
 
 //---------------  About Us Page ---------------
-  body.page-unternehmen {
-    .center-wrapper {
-      margin-bottom: 0;
-      .panel-col-first {
-        padding: 0;
-      }
-      .panel-col-last {
-        margin-top: 0;
-      }
-    }
-    .panel-col-bottom {
-      .view-content {
-        .views-row {
-          width: 100%;
+  .page-unternehmen {
+    .page-wrap{
+      .center-wrapper {
+        margin-bottom: 0;
+        .panel-col-first {
+          padding: 0;
         }
-        .views-row:not(:nth-child(2n)) {
-          margin-right: 0;
+        .panel-col-last {
+          margin-top: 0;
         }
       }
-    }
-    .pane-fieldable-panels-pane .field-type-link-field .field-item{
-      width: 100%;
+      .panel-col-bottom{
+        .inside .view-content{
+          .views-row{
+            width:100%;
+            min-height: 130px;
+          }
+          .views-row:not(:nth-child(3n)),
+          .views-row:not(:nth-child(2n)) {
+            margin-right: 0;
+          }
+        }
+      }
+      .pane-fieldable-panels-pane .field-type-link-field .field-item{
+        width: 100%;
+      }
     }
   }
 
