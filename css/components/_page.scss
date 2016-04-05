@@ -10,11 +10,8 @@
 .breadcrumb, .page-title{
   display: none;
 }
-.tabs{
-  //margin-top: 50px;
-}
 
-/* Body
+/* Page General Styles
 -------------------------------------------------------------- */
 
 body{
@@ -22,7 +19,6 @@ body{
   margin-top: 0;
   padding: 0;
 }
-
 header{
   @include wrapper;
   width:100%;
@@ -195,7 +191,6 @@ header{
           }
           li{
             &:hover{
-
               &>ul.menu{
                 display: block;
                 &>li{
@@ -209,7 +204,12 @@ header{
                       }
                       div.view-content{
                         div.views-row{
+                          margin: 0;
                           margin-bottom: 15px;
+                          padding: 0;
+                          float: none;
+                          width: 100%;
+                          background: none;
                         }
                         p{
                           font-family:$font-bold;
@@ -326,7 +326,6 @@ header{
       }
   }
 }
-
 footer{
   position: absolute;
   left:0;
@@ -379,7 +378,6 @@ footer{
     }
   }
 }
-
 .page-wrap{
   position: relative;
   padding-bottom: 225px;
@@ -692,26 +690,43 @@ footer{
         h2.pane-title{
           padding-left: 0;
         }
+        .view-content{
+          @extend .clearfix;
+        }
+        .views-row{
+          position: inherit;
+          width: 100%;
+          margin: 0;
+          .contextual-links-region{
+            position: inherit;
+          }
+          .field-name-title{
+            height: auto;
+          }
+        }
+      }
+
+      .panel-col-first{
+        .more-link{
+          position: absolute;
+          bottom: 14px;
+        }
       }
       .panel-col-last{
-        .contextual-links-region{
-          position: inherit;
-        }
-        .more-link{
-          width: calc(32.33% - 15px);
-        }
+         .field-name-node-link{
+           position: absolute;
+           bottom: 15px;
+           width: calc(32.33% - 30px);
+            .more-link {
+              position: inherit;
+              bottom: 0;
+            }
+         }
       }
     }
     .panel-col-bottom{
       .inside{
         margin: 0 -.5%;
-      }
-    }
-    .pane-newsletter{
-      form{
-        .form-actions{
-          bottom: 0;
-        }
       }
     }
   }
@@ -964,6 +979,9 @@ body:not(.page-home) {
       }
       .pane-clients-highlight{
         margin-top: 0;
+        .views-row{
+          width: 100%;
+        }
       }
     }
   }
@@ -993,6 +1011,7 @@ body:not(.page-home) {
     }
   }
 }
+
 
 //---------------  Network Page ---------------
 .page-netzwerk {
@@ -1119,6 +1138,7 @@ body:not(.page-home) {
   }
 }
 
+
 //---------------  Latest News Page ---------------
 .page-aktuelles {
   .center-wrapper {
@@ -1162,6 +1182,7 @@ body:not(.page-home) {
     }
   }
 }
+
 
 //---------------  Contact Page ---------------
 .page-contact {
@@ -1258,6 +1279,7 @@ body:not(.page-home) {
     }
   }
 }
+
 
 //---------------  About Us Page ---------------
 .page-unternehmen {
@@ -1601,7 +1623,6 @@ body:not(.page-home) {
 
 
 //--------------- Publications About Us Page ---------------
-
 .page-unternehmen-publications {
     main{
       &>.content{

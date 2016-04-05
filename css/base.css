@@ -290,7 +290,7 @@ form.email input[type='submit'] {
   .events-calendar-form .date-submit input:first-child {
     margin-left: 0; }
 
-.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .pane-newsletter form.webform-client-form:after, .pane-content .pane-content:after, .pane-content .view-filters .views-exposed-widget .views-widget:after, .pane-teams .view-content:after, header .region-header #block-system-main-menu .content:after, header .region-header #block-system-main-menu .content > ul.menu > li > ul.menu:after, header .region-header .block-lang-switcher ul.language-switcher-locale-url:after, .page-wrap .center-wrapper:after, .page-wrap .panel-col-bottom .inside:after, .page-referenzen .panel-col-bottom:after, .page-netzwerk .panel-col-bottom .inside .pane-teams .view-content:after, .page-contact .page-wrap .center-wrapper .panel-col-first .pane-address-description:after, .page-unternehmen .panel-col-bottom .pane-teams .view-content:after, .page-unternehmen-publications main > .content .view-content:after {
+.clearfix:after, .events-calendar-form .date-input:after, .events-calendar-form .date-submit:after, .wrapper:after, .pane-newsletter form.webform-client-form:after, .pane-content .pane-content:after, .pane-content .view-filters .views-exposed-widget .views-widget:after, .pane-teams .view-content:after, header .region-header #block-system-main-menu .content:after, header .region-header #block-system-main-menu .content > ul.menu > li > ul.menu:after, header .region-header .block-lang-switcher ul.language-switcher-locale-url:after, .page-wrap .center-wrapper:after, .page-wrap .panel-col-bottom .inside:after, .page-home .page-wrap .center-wrapper .panel-col-first .view-content:after, .page-home .page-wrap .center-wrapper .panel-col-last .view-content:after, .page-referenzen .panel-col-bottom:after, .page-netzwerk .panel-col-bottom .inside .pane-teams .view-content:after, .page-contact .page-wrap .center-wrapper .panel-col-first .pane-address-description:after, .page-unternehmen .panel-col-bottom .pane-teams .view-content:after, .page-unternehmen-publications main > .content .view-content:after {
   content: "";
   clear: both;
   display: table; }
@@ -727,7 +727,7 @@ form.email input[type='submit'] {
 .breadcrumb, .page-title {
   display: none; }
 
-/* Body
+/* Page General Styles
 -------------------------------------------------------------- */
 body {
   background: #E8E8E8;
@@ -864,7 +864,12 @@ header {
       header .region-header #block-system-main-menu .content > ul.menu li:hover > ul.menu > li > ul.menu li:hover > a {
         color: #E59900; }
       header .region-header #block-system-main-menu .content > ul.menu li:hover > ul.menu > li > ul.menu li div.view-content div.views-row {
-        margin-bottom: 15px; }
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 0;
+        float: none;
+        width: 100%;
+        background: none; }
       header .region-header #block-system-main-menu .content > ul.menu li:hover > ul.menu > li > ul.menu li div.view-content p {
         font-family: "helvetica-bold", sans-serif;
         font-size: 12px; }
@@ -1214,14 +1219,26 @@ footer {
   margin-top: -130px; }
   .page-home .page-wrap .center-wrapper .panel-col-first h2.pane-title, .page-home .page-wrap .center-wrapper .panel-col-last h2.pane-title {
     padding-left: 0; }
-  .page-home .page-wrap .center-wrapper .panel-col-last .contextual-links-region {
-    position: inherit; }
-  .page-home .page-wrap .center-wrapper .panel-col-last .more-link, .page-home .page-wrap .center-wrapper .panel-col-last .pane-newsletter form.webform-client-form .form-actions, .pane-newsletter form.webform-client-form .page-home .page-wrap .center-wrapper .panel-col-last .form-actions, .page-home .page-wrap .center-wrapper .panel-col-last .views-row .field-type-link-field .field-item, .views-row .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-last .field-item, .page-home .page-wrap .center-wrapper .panel-col-last .pane-fieldable-panels-pane .field-type-link-field .field-item, .pane-fieldable-panels-pane .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-last .field-item, .page-home .page-wrap .center-wrapper .panel-col-last .views-row .field-name-node-link, .views-row .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link, .page-home .page-wrap .center-wrapper .panel-col-last .pane-fieldable-panels-pane .field-name-node-link, .pane-fieldable-panels-pane .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link, .page-home .page-wrap .page-aktuelles .center-wrapper .panel-col-last .panel-col-first .panel-pane .field-name-node-link, .page-aktuelles .page-home .page-wrap .center-wrapper .panel-col-last .panel-col-first .panel-pane .field-name-node-link, .page-home .page-wrap .page-aktuelles .center-wrapper .panel-col-first .panel-pane .panel-col-last .field-name-node-link, .page-aktuelles .page-home .page-wrap .center-wrapper .panel-col-first .panel-pane .panel-col-last .field-name-node-link, .page-home .page-wrap .page-unternehmen .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-last .field-item, .page-unternehmen .page-home .page-wrap .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-last .field-item, .page-home .page-node .page-wrap .center-wrapper .panel-col-last .panel-col-first .pane-return-link .pane-content, .page-node .page-home .page-wrap .center-wrapper .panel-col-last .panel-col-first .pane-return-link .pane-content, .page-home .page-node .page-wrap .center-wrapper .panel-col-first .pane-return-link .panel-col-last .pane-content, .page-node .page-home .page-wrap .center-wrapper .panel-col-first .pane-return-link .panel-col-last .pane-content {
-    width: calc(32.33% - 15px); }
+  .page-home .page-wrap .center-wrapper .panel-col-first .views-row, .page-home .page-wrap .center-wrapper .panel-col-last .views-row {
+    position: inherit;
+    width: 100%;
+    margin: 0; }
+    .page-home .page-wrap .center-wrapper .panel-col-first .views-row .contextual-links-region, .page-home .page-wrap .center-wrapper .panel-col-last .views-row .contextual-links-region {
+      position: inherit; }
+    .page-home .page-wrap .center-wrapper .panel-col-first .views-row .field-name-title, .page-home .page-wrap .center-wrapper .panel-col-last .views-row .field-name-title {
+      height: auto; }
+  .page-home .page-wrap .center-wrapper .panel-col-first .more-link, .page-home .page-wrap .center-wrapper .panel-col-first .pane-newsletter form.webform-client-form .form-actions, .pane-newsletter form.webform-client-form .page-home .page-wrap .center-wrapper .panel-col-first .form-actions, .page-home .page-wrap .center-wrapper .panel-col-first .views-row .field-type-link-field .field-item, .views-row .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-first .field-item, .page-home .page-wrap .center-wrapper .panel-col-first .pane-fieldable-panels-pane .field-type-link-field .field-item, .pane-fieldable-panels-pane .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-first .field-item, .page-home .page-wrap .center-wrapper .panel-col-first .views-row .field-name-node-link, .views-row .page-home .page-wrap .center-wrapper .panel-col-first .field-name-node-link, .page-home .page-wrap .center-wrapper .panel-col-first .pane-fieldable-panels-pane .field-name-node-link, .pane-fieldable-panels-pane .page-home .page-wrap .center-wrapper .panel-col-first .field-name-node-link, .page-home .page-wrap .page-aktuelles .center-wrapper .panel-col-first .panel-pane .field-name-node-link, .page-aktuelles .page-home .page-wrap .center-wrapper .panel-col-first .panel-pane .field-name-node-link, .page-home .page-wrap .page-unternehmen .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-first .field-item, .page-unternehmen .page-home .page-wrap .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-first .field-item, .page-home .page-node .page-wrap .center-wrapper .panel-col-first .pane-return-link .pane-content, .page-node .page-home .page-wrap .center-wrapper .panel-col-first .pane-return-link .pane-content {
+    position: absolute;
+    bottom: 14px; }
+  .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link {
+    position: absolute;
+    bottom: 15px;
+    width: calc(32.33% - 30px); }
+    .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .more-link, .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .pane-newsletter form.webform-client-form .form-actions, .pane-newsletter form.webform-client-form .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .form-actions, .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .views-row .field-type-link-field .field-item, .views-row .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .field-item, .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .pane-fieldable-panels-pane .field-type-link-field .field-item, .pane-fieldable-panels-pane .field-type-link-field .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .field-item, .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .views-row .field-name-node-link, .views-row .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .field-name-node-link, .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .pane-fieldable-panels-pane .field-name-node-link, .pane-fieldable-panels-pane .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .field-name-node-link, .page-home .page-wrap .page-aktuelles .center-wrapper .panel-col-last .field-name-node-link .panel-col-first .panel-pane .field-name-node-link, .page-aktuelles .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .panel-col-first .panel-pane .field-name-node-link, .page-home .page-wrap .page-aktuelles .center-wrapper .panel-col-first .panel-pane .panel-col-last .field-name-node-link .field-name-node-link, .page-aktuelles .page-home .page-wrap .center-wrapper .panel-col-first .panel-pane .panel-col-last .field-name-node-link .field-name-node-link, .page-home .page-wrap .page-unternehmen .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-last .field-name-node-link .field-item, .page-unternehmen .page-home .page-wrap .center-wrapper .pane-fieldable-panels-pane .field-type-link-field .panel-col-last .field-name-node-link .field-item, .page-home .page-node .page-wrap .center-wrapper .panel-col-last .field-name-node-link .panel-col-first .pane-return-link .pane-content, .page-node .page-home .page-wrap .center-wrapper .panel-col-last .field-name-node-link .panel-col-first .pane-return-link .pane-content, .page-home .page-node .page-wrap .center-wrapper .panel-col-first .pane-return-link .panel-col-last .field-name-node-link .pane-content, .page-node .page-home .page-wrap .center-wrapper .panel-col-first .pane-return-link .panel-col-last .field-name-node-link .pane-content {
+      position: inherit;
+      bottom: 0; }
 .page-home .page-wrap .panel-col-bottom .inside {
   margin: 0 -.5%; }
-.page-home .page-wrap .pane-newsletter form .form-actions {
-  bottom: 0; }
 
 body:not(.page-home) .center-wrapper {
   margin-top: -400px;
@@ -1410,6 +1427,8 @@ body:not(.page-home) .panel-col-bottom {
   padding: 0; }
 .page-referenzen .center-wrapper .panel-col-last .pane-clients-highlight {
   margin-top: 0; }
+  .page-referenzen .center-wrapper .panel-col-last .pane-clients-highlight .views-row {
+    width: 100%; }
 .page-referenzen .panel-col-bottom .inside h2 {
   margin: 0;
   padding: 30px 15px 15px;
